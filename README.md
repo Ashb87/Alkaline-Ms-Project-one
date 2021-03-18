@@ -1,5 +1,6 @@
 # Milestone Project One | Alkaline Trio Website
 
+[View the live project here]()
  
 
 ## User Experience - UX
@@ -37,7 +38,25 @@ They will also be able to sign up to a news letter to keep up to date with all t
     * Promote any new music videos we have released and allow visitors to listen to music from our past albums.
     * Give fans the chance to sign up to a news letter to keep them up to date with the latest news which may include future tour dates
     which in turn will help generate more ticket sales.
-    *
+    * Keep the website upto date and engaging so that fans will want to return again and again.
+    * Allow our fans to contact us by sending a direct message through the contact page.
+
+## Wireframes
+
+To make my wireframes I have used balsamiq. I did one for each page and did a design for larger screens and smaller screens to show how the 
+site will be responsive to screen size and change accordingly. The links to each one are below.<br> **__For easier viewing I would recommend clicking the 
+dowload button as they appear much larger when viewed through github__**
+
+* [Home page (md, lg, xl screens)](https://github.com/Ashb87/Alkaline-Ms-Project-one/blob/master/MS1-wireframes/Alkaline-project-home-big.png)
+* [Home page (sm, xs screens)](https://github.com/Ashb87/Alkaline-Ms-Project-one/blob/master/MS1-wireframes/Alkaline-project-home-small.png)
+* [Band page (md, lg, xl screens)](https://github.com/Ashb87/Alkaline-Ms-Project-one/blob/master/MS1-wireframes/Alkaline-project-band-big.png)
+* [Band page (sm, xs screens)](https://github.com/Ashb87/Alkaline-Ms-Project-one/blob/master/MS1-wireframes/Alkaline-project-band-small.png)
+* [Music page (md, lg, xl screens)](https://github.com/Ashb87/Alkaline-Ms-Project-one/blob/master/MS1-wireframes/Alkaline-project-music-big.png)
+* [Music page (sm, xs screens)](https://github.com/Ashb87/Alkaline-Ms-Project-one/blob/master/MS1-wireframes/Alkaline-project-music-small.png)
+* [Tour page (md, lg, xl screens)](https://github.com/Ashb87/Alkaline-Ms-Project-one/blob/master/MS1-wireframes/Alkaline-project-tour-big.png)
+* [Tour page sm, xs screens)](https://github.com/Ashb87/Alkaline-Ms-Project-one/blob/master/MS1-wireframes/Alkaline-project-tour-small.png)
+* [Contact page (md, lg, xl screens)](https://github.com/Ashb87/Alkaline-Ms-Project-one/blob/master/MS1-wireframes/Alkaline-project-contact-big.png)
+* [Contact page (sm, xs screens)](https://github.com/Ashb87/Alkaline-Ms-Project-one/blob/master/MS1-wireframes/Alkaline-project-contact-small.png)
 
     
  
