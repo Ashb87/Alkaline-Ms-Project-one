@@ -5,7 +5,7 @@
 /*=========================Header*/
 
 .header-wrapper{
-    background-color: #fff8dc;
+    background-color: #d3ab78;
     height: 150px;
     width: 100%;
     text-align: center;
@@ -16,7 +16,7 @@
     font-size: 150px;
     padding-top: 25px;
     text-transform: uppercase;
-    color: #333333
+    color: black;
 }
 /*===========================NavBar*/
 
@@ -30,7 +30,8 @@ button{
 }
 
 #bg-color{
-    background-color: #fff8dc;
+    background-color: #d3ab78;
+    border-bottom: 3px solid #ba1626;
 }
 
 .nav-item{
@@ -42,22 +43,19 @@ button{
     border-color: #333333;
 }
 
-button.navbar-toggler:focus{
-    border-color: red;
-}
-
 
 .main{
     height:900px;
-    background-color: #333333;
+    background-color: black;
     position: relative;
 }
 
 .video-title h1{
-    color: #da0d21;
+    color: #ba1626;
     text-align: center;
     font-family: fraunces;
     padding-top: 20px;
+    font-size: 80px;
 }
 
 iframe{
@@ -87,7 +85,8 @@ iframe{
 
 .footer-wrapper{
     height:100px;
-    background-color: #fff8dc;
+    background-color: #ba1626;
+    border-top: 3px solid #d3ab78;
 }
 
 /*===================social-links*/
@@ -100,11 +99,11 @@ iframe{
   font-size: 180%;
   padding: 10px;
   margin: 10px;
-  color: #333333;
+  color: black;
 }
 
 .social-networks i:hover{
-    color: #ba1626;
+    color: #d3ab78;
 }
 
 
@@ -114,16 +113,18 @@ iframe{
     float: right;
     margin-top: 20px;
     margin-right: 50px;
-    background-color: #333333;
+    background-color:black;
+    color: #d3ab78;
     border: none;
 }
 
 .footer-wrapper .btn:hover{
-    background-color: #ba1626;
+    background-color:#d3ab78;
+    color: black;
 }
 
 .modal-body .btn-submit{
-    background-color: #fff8dc;
+    background-color: #d3ab78;
     color: #ba1626;
 }
 
@@ -132,13 +133,13 @@ iframe{
 }
 
 .modal-body .btn-submit:hover{
-    background-color: #333333;
-    color: #fff8dc;
+    background-color: black;
+    color: #d3ab78;
 }
 
 .modal-content{
     background-color: #ba1626;
-    color: #fff8dc;
+    color: #d3ab78;
     font-family: fraunces;
 }
 /*========================Media-Querys*/
