@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@400;500;600&display=swap');
 
-.header{
+.header-wrapper{
     background-color: #fff8dc;
     height: 150px;
     width: 100%;
     text-align: center;
 }
 
-.header h1{
+.header-wrapper h1{
     font-family: fraunces;
     font-size: 150px;
     padding-top: 25px;
@@ -32,54 +32,100 @@ button{
     font-family: fraunces;
     font-size: 25px;
 }
+
+.navbar-light .navbar-toggler {
+    border-color: black;
+}
+
+button.navbar-toggler:focus{
+    border-color: red;
+}
+
+/*========================Footer*/
+
+.footer-wrapper{
+    height:100px;
+    background-color: #fff8dc;
+}
+
+/*===================social-links*/
+
+.social-networks li {
+  display: inline;
+}
+
+.social-networks i {
+  font-size: 180%;
+  padding: 10px;
+  margin: 10px;
+  color: black
+}
+
+.social-networks i:hover{
+    color: #ba1626;
+}
+
+.footer-wrapper .btn{
+    float: right;
+    margin-top: 20px;
+    margin-right: 50px;
+    background-color: black;
+    border: none;
+}
+
+.footer-wrapper .btn:hover{
+    background-color: #ba1626;
+}
+
+
 /*========================MediaQuery*/
 
 @media screen and (max-width: 576px) {
-  .header{
-      height: 200px;
+  .header-wrapper{
+      height: 175px;
   } 
-  .header h1 {
+  .header-wrapper h1 {
     font-size: 70px;
     padding-top: 20px;
   }
 }
 
 @media screen and (min-width: 576px) {
-  .header{
+  .header-wrapper{
       height: 150px;
   } 
-  .header h1 {
+  .header-wrapper h1 {
     font-size: 70px;
     line-height: 100px;
   }
 }
 
 @media screen and (min-width: 768px) {
-  .header{
+  .header-wrapper{
       height: 150px;
   }
 
-  .header h1 {
+  .header-wrapper h1 {
     font-size: 90px;
     line-height: 100px;
   }
 }
 
 @media screen and (min-width: 992px) {
-  .header{
+  .header-wrapper{
       height: 150px;
   }
 
-  .header h1 {
+  .header-wrapper h1 {
     font-size: 110px;
   }
 }
 
 @media screen and (min-width: 1200px) {
-  .header{
+  .header-wrapper{
     height: 150px;
   }
-  .header h1 {
+  .header-wrapper h1 {
     font-size: 130px;
   }
 }  

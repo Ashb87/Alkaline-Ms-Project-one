@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css"/>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
@@ -10,7 +11,7 @@
 </head>
 <body>
   <header>
-      <div class="header">
+      <div class="header-wrapper">
       <h1>Alkaline trio</h1>
       </div> 
     <nav id="bg-color" class="navbar navbar-expand-sm navbar-light">
@@ -51,7 +52,43 @@
     </section>
    
     <footer>
+        <div class="footer-wrapper">
+           <button type="button" class="btn btn-success btn-cta" data-toggle="modal" data-target="#newsletterModal">
+                        Sign Up!
+                    </button>
+             <div class="modal fade" id="newsletterModal" tabindex="-1" role="dialog" aria-labelledby="signUpModal" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="signUpModal">Sign Up For The Latest News!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Your name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="email" placeholder="Email" required>
+                            <small id="emailHelp" class="form-text modal-helper-text">We'll never share your email with anyone else.</small>
+                        </div>
+                        <button type="submit" class="btn btn-success">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 
+
+        <ul class="social-networks">
+        <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
+        <li><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
+        <li><a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube-square"></i></a></li>
+        <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li> 
+      </ul>
+      </div>
     </footer>
      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
