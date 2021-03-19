@@ -1,4 +1,8 @@
+/*=====Fonts imported from google fonts=====*/
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@400;500;600&display=swap');
+
+
+/*=========================Header*/
 
 .header-wrapper{
     background-color: #fff8dc;
@@ -12,6 +16,7 @@
     font-size: 150px;
     padding-top: 25px;
     text-transform: uppercase;
+    color: #333333
 }
 /*===========================NavBar*/
 
@@ -34,11 +39,48 @@ button{
 }
 
 .navbar-light .navbar-toggler {
-    border-color: black;
+    border-color: #333333;
 }
 
 button.navbar-toggler:focus{
     border-color: red;
+}
+
+
+.main{
+    height:900px;
+    background-color: #333333;
+    position: relative;
+}
+
+.video-title h1{
+    color: #da0d21;
+    text-align: center;
+    font-family: fraunces;
+    padding-top: 20px;
+}
+
+iframe{
+    border-radius: 10px;
+}
+
+.videoframe{
+    position: relative;
+    width: 100%;
+    height: 600px;
+    margin-top: 40px;
+}
+
+.videoframe iframe{
+   
+   top:0;
+   left:0;
+   width: 70%;
+   height: 100%;
+   margin: 0 auto;
+   display: block;
+  
+   
 }
 
 /*========================Footer*/
@@ -58,18 +100,21 @@ button.navbar-toggler:focus{
   font-size: 180%;
   padding: 10px;
   margin: 10px;
-  color: black
+  color: #333333;
 }
 
 .social-networks i:hover{
     color: #ba1626;
 }
 
+
+/*=====================modal*/
+
 .footer-wrapper .btn{
     float: right;
     margin-top: 20px;
     margin-right: 50px;
-    background-color: black;
+    background-color: #333333;
     border: none;
 }
 
@@ -77,16 +122,38 @@ button.navbar-toggler:focus{
     background-color: #ba1626;
 }
 
+.modal-body .btn-submit{
+    background-color: #fff8dc;
+    color: #ba1626;
+}
 
-/*========================MediaQuery*/
+.btn-success.focus, .btn-success:focus {
+    box-shadow: none;
+}
 
-@media screen and (max-width: 576px) {
+.modal-body .btn-submit:hover{
+    background-color: #333333;
+    color: #fff8dc;
+}
+
+.modal-content{
+    background-color: #ba1626;
+    color: #fff8dc;
+    font-family: fraunces;
+}
+/*========================Media-Querys*/
+
+@media screen and (max-width: 575px) {
   .header-wrapper{
       height: 175px;
   } 
   .header-wrapper h1 {
     font-size: 70px;
     padding-top: 20px;
+  }
+
+  .footer-wrapper{
+      height: 120px
   }
 }
 
@@ -111,7 +178,7 @@ button.navbar-toggler:focus{
   }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 990px) {
   .header-wrapper{
       height: 150px;
   }
