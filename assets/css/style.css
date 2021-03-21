@@ -2,6 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@400;500;600&display=swap');
 
 
+*{
+  margin:0;
+  padding:0;
+  border:0;
+}
+
+html, body {width: auto!important; overflow-x: hidden!important} 
+
 body{
     font-family: fraunces;
 }
