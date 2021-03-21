@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@400;500;600&display=swap');
 
 
+body{
+    font-family: fraunces;
+}
+
 /*=========================Header*/
 
 .header-wrapper{
@@ -12,7 +16,6 @@
 }
 
 .header-wrapper h1{
-    font-family: fraunces;
     font-size: 150px;
     padding-top: 25px;
     text-transform: uppercase;
@@ -35,7 +38,6 @@ button{
 }
 
 .nav-item{
-    font-family: fraunces;
     font-size: 25px;
 }
 
@@ -79,6 +81,7 @@ iframe{
   right: 0;
   width: 80%;
   height: 80%;
+  
   margin: 0 auto;
 }
 
@@ -86,11 +89,19 @@ iframe{
 
 .footer-wrapper{
     background-color: #ba1626;
-    height: 100px;
+    height: 150px;
+    border-top: 3px solid #d3ab78;
+    
+    
 }
 
 
 /*===================social-links*/
+
+.social-networks{
+    text-align: center;
+    margin: auto;
+}
 
 .social-networks li {
   display: inline;
@@ -108,15 +119,17 @@ iframe{
 }
 
 
-/*=====================modal*/
+/*=====================modal-colors and button position================*/
+
+.btn-wrapper{
+    text-align: center;
+}
 
 .footer-wrapper .btn{
-    float: right;
-    margin-top: 20px;
-    margin-right: 50px;
     background-color:black;
     color: #d3ab78;
     border: none;
+    margin-top: 20px;
 }
 
 .footer-wrapper .btn:hover{
@@ -141,9 +154,8 @@ iframe{
 .modal-content{
     background-color: #ba1626;
     color: #d3ab78;
-    font-family: fraunces;
 }
-/*========================Media-Querys*/
+/*========================Media-Querys===============================*/
 
 @media screen and (max-width: 575px) {
   .header-wrapper{
