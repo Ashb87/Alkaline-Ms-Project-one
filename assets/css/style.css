@@ -1,6 +1,5 @@
 /*=====Fonts imported from google fonts=====*/
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@400;500;600&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600&family=Fraunces:wght@400;500&family=Imbue:wght@500&display=swap');
 
 *{
   margin:0;
@@ -11,10 +10,10 @@
 html, body {width: auto!important; overflow-x: hidden!important} 
 
 body{
-    font-family: fraunces;
+    font-family: "crimson text";
 }
 
-/*=========================Header*/
+/*=================Header===============*/
 
 .header-wrapper{
     background-color: #d3ab78;
@@ -28,8 +27,9 @@ body{
     padding-top: 25px;
     text-transform: uppercase;
     color: black;
+    font-family: "imbue";
 }
-/*===========================NavBar*/
+/*=====NavBar====*/
 
 .navbar-nav{
     text-align: center;
@@ -53,7 +53,7 @@ button{
     border-color: #333333;
 }
 
-
+/*===============main-body-home page============*/
 .main{
     height:900px;
     background-color: black;
@@ -63,16 +63,14 @@ button{
 .video-title h1{
     color: #ba1626;
     text-align: center;
-    font-family: fraunces;
+    font-family: imbue;
     padding-top: 20px;
     font-size: 80px;
 }
 
-iframe{
-    border-radius: 10px;
-}
 
-/*=====Code taken from w3schools and adapted to my own requirements to make video responsive to different screen sizes===*/
+
+/*====Code taken from w3schools and adapted to my own requirements to make video responsive to different screen sizes===*/
 
 .video-frame{
   position: relative;
@@ -99,12 +97,9 @@ iframe{
     background-color: #ba1626;
     height: 150px;
     border-top: 3px solid #d3ab78;
-    
-    
 }
 
-
-/*===================social-links*/
+/*====social-links===*/
 
 .social-networks{
     text-align: center;
@@ -127,7 +122,7 @@ iframe{
 }
 
 
-/*=====================modal-colors and button position================*/
+/*=====modal-colors and button position===*/
 
 .btn-wrapper{
     text-align: center;
@@ -167,11 +162,11 @@ iframe{
 
 @media screen and (max-width: 575px) {
   .header-wrapper{
-      height: 175px;
+      height: 150px;
   } 
   .header-wrapper h1 {
     font-size: 70px;
-    padding-top: 20px;
+    padding-top: 25px;
   }
 
   .footer-wrapper{
@@ -186,7 +181,7 @@ iframe{
 
 @media screen and (min-width: 576px) {
   .header-wrapper{
-      height: 150px;
+      height: 120px;
   } 
   .header-wrapper h1 {
     font-size: 70px;
