@@ -68,8 +68,6 @@ button{
     font-size: 80px;
 }
 
-
-
 /*====Code taken from w3schools and adapted to my own requirements to make video responsive to different screen sizes===*/
 
 .video-frame{
@@ -90,6 +88,28 @@ button{
   
   margin: 0 auto;
 }
+
+/*=========Tour-page======*/
+
+.tour-card-wrapper{
+    background-color: black;
+}
+
+.ticket-card{
+  color: black;
+  background: url("../images/alkaline-trio-logo.png") center center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .2);
+  background-size: 275px;
+  text-align: center;
+  height: 300px;
+  width: 300px;
+  
+  margin: 0 auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
 
 /*===================Footer==========*/
 
