@@ -163,6 +163,36 @@ button{
 }
 
 
+/*================music-page*/
+
+.music-title{
+    background-color: black;
+}
+
+.album-wrapper{
+    background-image: linear-gradient(black, #999);
+}
+
+.album{
+    height: 300px;
+}
+img{
+    max-height: 100%;
+    max-width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.album-title, .album-year{
+    color: #fafafa;
+    text-transform: uppercase;
+}
+
+.album-title{
+    padding-top: 50px;
+    font-size: 6vw;
+}
+
 /*=====modal-colors and button position===*/
 
 .btn-wrapper{
