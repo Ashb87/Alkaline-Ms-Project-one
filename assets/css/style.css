@@ -7,10 +7,9 @@
   border:0;
 }
 
-html, body {width: auto!important; overflow-x: hidden!important} 
-
 body{
     font-family: "crimson text";
+    width: auto!important; overflow-x: hidden!important
 }
 
 /*=================Header===============*/
@@ -171,7 +170,8 @@ button{
 }
 
 .album-wrapper{
-    background-image: linear-gradient(black, #999);
+    background-image: linear-gradient(#6b000b, #999);
+    border-top: 2px solid black;
 }
 
 .album{
@@ -201,6 +201,7 @@ img, iframe{
 .music-card{
     padding: 15px;
 }
+
 /*=====modal-colors and button position===*/
 
 .btn-wrapper{
