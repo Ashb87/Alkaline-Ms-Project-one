@@ -68,6 +68,10 @@ button{
     font-size: 80px;
 }
 
+.follow{
+    padding: 0;
+}
+
 /*===============Tour-page*/
 
 .tour-header h1{
