@@ -7,9 +7,11 @@
   border:0;
 }
 
+html body{
+    width: auto!important; overflow-x: hidden!important
+}
 body{
     font-family: "crimson text";
-    width: auto!important; overflow-x: hidden!important
 }
 
 /*=================Header===============*/
@@ -211,6 +213,9 @@ img, iframe{
 .band-pic{
   height: 400px;
   width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
   
 }
 
@@ -219,11 +224,10 @@ img, iframe{
     height: 100%;
 }
 
-.center{
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 10px;
+.bg-band-main{
+    background-color: #ba1626;
 }
+
 /*=====modal-colors and button position===*/
 
 .btn-wrapper{
