@@ -202,6 +202,28 @@ img, iframe{
     padding: 15px;
 }
 
+/*=================Band-page==*/
+
+.band-img-wrapper{
+    width: 100%;
+}
+
+.band-pic{
+  height: 400px;
+  width: 250px;
+  
+}
+
+.band-pic img{
+    width: 100%;
+    height: 100%;
+}
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+}
 /*=====modal-colors and button position===*/
 
 .btn-wrapper{
