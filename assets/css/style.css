@@ -20,6 +20,7 @@ body{
     height: 150px;
     width: 100%;
     text-align: center;
+    border-top: 3px solid black;
 }
 
 .header-wrapper h1{
@@ -42,7 +43,7 @@ button{
 
 #bg-color{
     background-color: #d3ab78;
-    border-bottom: 3px solid #ba1626;
+    border-bottom: 3px solid black;
 }
 
 .nav-item{
@@ -102,7 +103,7 @@ button{
 .ticket-card{
   color: black;
   border: 3px solid #ba1626;
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(255, 255, 255, 0.7);
   text-align: center;
   height: 300px;
   max-width: 400px;
@@ -110,7 +111,7 @@ button{
   margin: 0 auto;
   margin-bottom: 20px;
   margin-top: 20px;
-  border-radius: 5px;
+  border-radius: 2px;
   overflow: auto;
 }
 
@@ -152,8 +153,8 @@ button{
 }
 
 .social-networks i {
-  font-size: 180%;
-  padding: 10px;
+  font-size: 2.5rem;
+  padding: 3px;
   margin: 10px;
   color: black;
 }
@@ -176,7 +177,7 @@ button{
 .album{
     height: 300px;
 }
-img{
+img, iframe{
     max-height: 100%;
     max-width: 100%;
     padding-top: 20px;
@@ -190,9 +191,16 @@ img{
 
 .album-title{
     padding-top: 50px;
-    font-size: 6vw;
+    font-size: 4vw;
 }
 
+.music-wrapper{
+    background-color: black;
+}
+
+.music-card{
+    padding: 15px;
+}
 /*=====modal-colors and button position===*/
 
 .btn-wrapper{
