@@ -61,17 +61,21 @@ button{
 /*===============Main-body-home-page*/
 .main{
     background-color: black;
-}
-
-.main p{
     color: #ba1626;
 }
 
 .video-title h1{
-    color: #ba1626;
     text-align: center;
     padding-top: 20px;
     font-size: 80px;
+    text-transform: capitalize;
+}
+
+.video-title h2{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 40px;
+    text-transform: capitalize
 }
 
 .follow{
@@ -133,7 +137,11 @@ button{
     border-top: 2px solid black;
 }
 
-
+.album-wrapper h1{
+    padding-top: 15px;
+    font-size: 80px;
+    text-transform: capitalize;
+}
 
 .album{
     height: 300px;
@@ -170,6 +178,7 @@ img, iframe{
     width: 100%;
     padding-left: 25px;
     padding-bottom: 25px;
+    padding-top: 20px;
 }
 
 .band-pic{
@@ -191,6 +200,14 @@ img, iframe{
 
 .bg-band-main h1{
     padding-top: 15px;
+    font-size: 80px;
+    color: #f0f0f0;
+}
+
+.bg-band-main h2{
+    font-size: 40px;
+    padding-top: 20px;
+    
 }
 
 hr{
@@ -200,17 +217,21 @@ hr{
 }
 
 .history-header{
-    border-bottom: 3px solid black;
+    text-transform: capitalize;
 }
 
 .history-header, 
 .history-main{
     background-color: #f0f0f0;
-     padding-top: 15px;
+    padding-top: 15px;
 }
 
 .history-main p{
     font-family: lora;
+}
+
+.history-main h3{
+    padding-top: 10px;
 }
 /*====================Modal*/
 
