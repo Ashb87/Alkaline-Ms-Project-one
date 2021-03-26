@@ -14,17 +14,20 @@ body{
     font-family: "Fjalla one";
 }
 
-/*=================Header===============*/
+/*====Header-Consistent-on-every-page===============*/
 
 .header-wrapper{
+    padding-right: 0;
+    padding-left:  0;
+}
+
+.header{
     background-color: #f0f0f0;
-    height: 150px;
-    width: 100%;
     text-align: center;
     border-top: 3px solid black;
 }
 
-.header-wrapper h1{
+.header h1{
     font-size: 150px;
     padding-top: 25px;
     text-transform: uppercase;
@@ -48,14 +51,14 @@ button{
 }
 
 .nav-item{
-    font-size: 25px;
+    font-size: 35px;
 }
 
 .navbar-light .navbar-toggler {
     border-color: #333333;
 }
 
-/*===============main-body-home page============*/
+/*===============Main-body-home-page*/
 .main{
     background-color: black;
 }
@@ -67,7 +70,6 @@ button{
 .video-title h1{
     color: #ba1626;
     text-align: center;
-    font-family: ;
     padding-top: 20px;
     font-size: 80px;
 }
@@ -120,47 +122,7 @@ button{
     border: 1px solid black;
 }
 
-.opaque-overlay{
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-}
-
-/*===================Footer==========*/
-
-.footer-wrapper{
-    background-color: #ba1626;
-    height: 150px;
-    border-top: 3px solid #d3ab78;
-}
-
-/*====social-links===*/
-
-.social-networks{
-    text-align: center;
-    margin: auto;
-}
-
-.social-networks li {
-  display: inline;
-}
-
-.social-networks i {
-  font-size: 2.5rem;
-  padding: 3px;
-  margin: 10px;
-  color: black;
-}
-
-.social-networks i:hover{
-    color: #d3ab78;
-}
-
-
-/*================music-page*/
+/*================Music-page*/
 
 .music-title{
     background-color: black;
@@ -171,9 +133,12 @@ button{
     border-top: 2px solid black;
 }
 
+
+
 .album{
     height: 300px;
 }
+
 img, iframe{
     max-height: 100%;
     max-width: 100%;
@@ -224,6 +189,10 @@ img, iframe{
     border-bottom: 3px solid black;
 }
 
+.bg-band-main h1{
+    padding-top: 15px;
+}
+
 hr{
     border-bottom: 2px solid black;
     width: 120px;
@@ -243,7 +212,7 @@ hr{
 .history-main p{
     font-family: lora;
 }
-/*=====modal-colors and button position===*/
+/*====================Modal*/
 
 .btn-wrapper{
     text-align: center;
@@ -280,13 +249,40 @@ hr{
     color: #d3ab78;
 }
 
+/*=====================Footer*/
+
+.footer-wrapper{
+    background-color: #ba1626;
+    height: 150px;
+    border-top: 3px solid #d3ab78;
+}
+
+/*====social-links===*/
+
+.social-networks{
+    text-align: center;
+    margin: auto;
+}
+
+.social-networks li {
+  display: inline;
+}
+
+.social-networks i {
+  font-size: 2.5rem;
+  padding: 3px;
+  margin: 10px;
+  color: black;
+}
+
+.social-networks i:hover{
+    color: #d3ab78;
+}
+
 /*========================Media-Querys===============================*/
 
 @media screen and (max-width: 575px) {
-  .header-wrapper{
-      height: 150px;
-  } 
-  .header-wrapper h1 {
+  .header h1 {
     font-size: 70px;
     padding-top: 25px;
   }
@@ -294,61 +290,31 @@ hr{
   .footer-wrapper{
       height: 120px
   }
-  
-  .main{
-      height: 600px;
-  }
-  
 }
 
 @media screen and (min-width: 576px) {
-  .header-wrapper{
-      height: 120px;
-  } 
-  .header-wrapper h1 {
+  .header h1 {
     font-size: 70px;
     line-height: 100px;
-  }
-
-  .main{
-      height: 700px;
   }
 }
 
 @media screen and (min-width: 768px) {
-  .header-wrapper{
-      height: 150px;
-  }
-
-  .header-wrapper h1 {
+  .header h1 {
     font-size: 90px;
     line-height: 100px;
-  }
-
-  .main{
-      height: 700px;
   }
 }
 
 @media screen and (min-width: 990px) {
-  .header-wrapper{
-      height: 150px;
-  }
-
-  .header-wrapper h1 {
+    .header h1 {
     font-size: 110px;
-  }
-
-  .main{
-      height: 900px;
   }
 }
 
 @media screen and (min-width: 1200px) {
-  .header-wrapper{
-    height: 150px;
-  }
-  .header-wrapper h1 {
+  
+  .header h1 {
     font-size: 150px;
   }
 }  
