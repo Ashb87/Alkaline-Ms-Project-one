@@ -1,5 +1,5 @@
 /*=====Fonts imported from google fonts=====*/
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600&family=Fraunces:wght@400;500&family=Imbue:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Lora:wght@400;500&display=swap');
 
 *{
   margin:0;
@@ -11,13 +11,13 @@ html, body{
     width: auto!important; overflow-x: hidden!important
 }
 body{
-    font-family: "crimson text";
+    font-family: "Fjalla one";
 }
 
 /*=================Header===============*/
 
 .header-wrapper{
-    background-color: whitesmoke;
+    background-color: #f0f0f0;
     height: 150px;
     width: 100%;
     text-align: center;
@@ -29,7 +29,7 @@ body{
     padding-top: 25px;
     text-transform: uppercase;
     color: black;
-    font-family: "imbue";
+    font-family: "lora";
 }
 /*=====NavBar====*/
 
@@ -43,7 +43,7 @@ button{
 }
 
 #bg-color{
-    background-color: whitesmoke;
+    background-color: #f0f0f0;
     border-bottom: 3px solid black;
 }
 
@@ -60,10 +60,14 @@ button{
     background-color: black;
 }
 
+.main p{
+    color: #ba1626;
+}
+
 .video-title h1{
     color: #ba1626;
     text-align: center;
-    font-family: imbue;
+    font-family: ;
     padding-top: 20px;
     font-size: 80px;
 }
@@ -224,6 +228,20 @@ hr{
     border-bottom: 2px solid black;
     width: 120px;
     margin: 0 auto;
+}
+
+.history-header{
+    border-bottom: 3px solid black;
+}
+
+.history-header, 
+.history-main{
+    background-color: #f0f0f0;
+     padding-top: 15px;
+}
+
+.history-main p{
+    font-family: lora;
 }
 /*=====modal-colors and button position===*/
 
