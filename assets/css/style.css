@@ -64,7 +64,7 @@ button{
 
 .video-title h1{
     text-align: center;
-    padding-top: 20px;
+    padding-top: 40px;
     font-size: 80px;
     text-transform: capitalize;
 }
@@ -85,6 +85,7 @@ button{
 .tour-header h1{
     font-size: 80px;
     color: #ba1626;
+    padding-top: 40px;
 }
 
 .tour-card-wrapper{
@@ -136,7 +137,7 @@ button{
 }
 
 .album-wrapper h1{
-    padding-top: 15px;
+    padding-top: 40px;
     font-size: 80px;
     text-transform: capitalize;
 }
@@ -197,7 +198,7 @@ img, iframe{
 }
 
 .bg-band-main h1{
-    padding-top: 15px;
+    padding-top: 40px;
     font-size: 80px;
     color: #f0f0f0;
 }
@@ -218,10 +219,16 @@ hr{
     text-transform: capitalize;
 }
 
+.history-main{
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 .history-header, 
 .history-main{
     background-color: #f0f0f0;
-    padding-top: 15px;
+    padding-top: 30px;
 }
 
 .history-main p{
@@ -231,6 +238,34 @@ hr{
 .history-main h3{
     padding-top: 10px;
 }
+
+/*====================Contact-page*/
+
+.bg-contact-main{
+    padding-bottom: 40px;
+    background-color: #ba1626;
+}
+
+.bg-contact-main h1{
+    font-size: 80px;
+    padding-top: 40px;
+}
+
+.form-control{
+    background-color: #f0f0f0;
+}
+
+.bg-contact-main .btn-submit{
+    background-color: #d3ab78;
+    color: #ba1626;
+    border: none;
+}
+
+.bg-contact-main .btn-submit:hover{
+    background-color: black;
+    color: #d3ab78;
+}
+
 /*====================Modal*/
 
 .btn-wrapper{
