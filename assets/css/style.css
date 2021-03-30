@@ -146,7 +146,7 @@ button{
     height: 300px;
 }
 
-img, iframe{
+ img, iframe{
     max-height: 100%;
     max-width: 100%;
     padding-top: 20px;
@@ -159,8 +159,8 @@ img, iframe{
 }
 
 .album-title{
-    padding-top: 50px;
-    font-size: 4vw;
+    padding-top: 75px;
+    font-size: 45px;
 }
 
 .music-wrapper{
@@ -198,7 +198,7 @@ img, iframe{
 }
 
 .bg-band-main h1{
-    padding-top: 40px;
+    padding-top: 15px;
     font-size: 80px;
     color: #f0f0f0;
 }
@@ -206,7 +206,6 @@ img, iframe{
 .bg-band-main h2{
     font-size: 40px;
     padding-top: 20px;
-    
 }
 
 hr{
@@ -219,17 +218,13 @@ hr{
     text-transform: capitalize;
 }
 
-.history-main{
-    padding-bottom: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
 .history-header, 
 .history-main{
     background-color: #f0f0f0;
-    padding-top: 30px;
+    padding-top: 15px;
 }
+
+.history-main img
 
 .history-main p{
     font-family: lora;
@@ -347,6 +342,11 @@ hr{
   
   .video-title h1{
       font-size: 70px;
+  }
+
+  .album-title{
+      font-size: 50px;
+      padding-top: 35px;
   }
 }
 
