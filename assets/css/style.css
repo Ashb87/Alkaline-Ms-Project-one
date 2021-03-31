@@ -112,7 +112,8 @@ button{
 }
 
 .new-album{
-    background-image: linear-gradient(black, #ba1626) ;
+    background-image: linear-gradient(black, #ba1626);
+    padding-bottom: 30px;
 }
 
 .new-album h2{
