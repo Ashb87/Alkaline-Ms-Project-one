@@ -192,20 +192,20 @@ button{
     height: 100%;
 }
 
-.bg-band-main{
+.bg-band-members{
     background-color: #ba1626;
     border-bottom: 3px solid black;
 }
 
-.bg-band-main h1{
-    padding-top: 15px;
+.bg-band-members h1{
+    padding-top: 40px;
     font-size: 80px;
     color: #f0f0f0;
 }
 
-.bg-band-main h2{
+.bg-band-members h2{
     font-size: 40px;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 hr{
@@ -218,20 +218,26 @@ hr{
     text-transform: capitalize;
 }
 
-.history-header, 
-.history-main{
+
+.history-header{
     background-color: #f0f0f0;
-    padding-top: 15px;
+    padding-top: 30px;
 }
 
-.history-main img
+.history-main{
+    background-color: #f0f0f0;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
 
 .history-main p{
     font-family: lora;
 }
 
 .history-main h3{
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
 /*====================Contact-page*/
