@@ -216,20 +216,17 @@ hr{
 
 .history-header{
     text-transform: capitalize;
-}
-
-
-.history-header{
     background-color: #f0f0f0;
     padding-top: 30px;
 }
 
+.history-header h2{
+    font-size: 40px;
+}
+
 .history-main{
     background-color: #f0f0f0;
-    padding-top: 20px;
-    padding-bottom: 30px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 20px 30px 20px 20px;
 }
 
 .history-main p{
