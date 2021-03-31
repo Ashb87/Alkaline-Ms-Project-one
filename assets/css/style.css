@@ -9,10 +9,10 @@
 
 
 body{
-    font-family: "Fjalla one";
+    font-family: "Fjalla one", sans-serif;
 }
 
-/*====Header-Consistent-on-every-page===============*/
+/*===============Header-Consistent-on-every-page*/
 
 .header-wrapper{
     padding-right: 0;
@@ -30,7 +30,7 @@ body{
     padding-top: 25px;
     text-transform: uppercase;
     color: black;
-    font-family: "lora";
+    font-family: lora, sans-serif;
 }
 /*=====NavBar====*/
 
@@ -56,10 +56,41 @@ button{
     border-color: #333333;
 }
 
+/*==============Footer-Consistent-on-every-page*/
+
+.footer-wrapper{
+    background-color: #ba1626;
+    height: 150px;
+    border-top: 3px solid #d3ab78;
+}
+
+/*====social-links===*/
+
+.social-networks{
+    text-align: center;
+    margin: auto;
+}
+
+.social-networks li {
+  display: inline;
+}
+
+.social-networks i {
+  font-size: 2.5rem;
+  padding: 3px;
+  margin: 10px;
+  color: black;
+}
+
+.social-networks i:hover{
+    color: #d3ab78;
+}
+
 /*===============Main-body-home-page*/
 .main{
     background-color: black;
     color: #ba1626;
+    padding-bottom: 30px;
 }
 
 .video-title h1{
@@ -80,95 +111,23 @@ button{
     padding: 0;
 }
 
-/*===============Tour-page*/
+.new-album{
+    background-image: linear-gradient(black, #ba1626) ;
+}
 
-.tour-header h1{
-    font-size: 80px;
+.new-album h2{
     color: #ba1626;
+    font-size: 70px;
     padding-top: 40px;
 }
 
-.tour-card-wrapper{
-    background: url("../images/alk-live1.jpg") center center;
+.new-album h3 a{
+    color: #ba1626;
+    text-decoration: none;
 }
 
-.ticket-card{
-  color: black;
-  border: 3px solid #ba1626;
-  background-color: rgba(255, 255, 255, 0.7);
-  text-align: center;
-  height: 300px;
-  max-width: 400px;
-  padding-top: 20px;
-  margin: 0 auto;
-  margin-bottom: 20px;
-  margin-top: 20px;
-  border-radius: 2px;
-  overflow: auto;
-}
-
-.btn-sold-out{
-    background-color: #333;
-    color: white;
-    border: 1px solid #d3ab78;
-}
-
-.btn-book-now{
-    background-color: #ba1626;
+.new-album h3 a:hover{
     color: #d3ab78;
-    border: 1px solid black;
-}
-
-.btn-book-now:hover{
-    background-color: #d3ab78;
-    color: #ba1626;
-    border: 1px solid black;
-}
-
-/*================Music-page*/
-
-.music-title{
-    background-color: black;
-}
-
-.album-wrapper{
-    background-image: linear-gradient(#f30218, #630d15);
-    border-top: 2px solid black;
-}
-
-.album-wrapper h1{
-    padding-top: 40px;
-    font-size: 80px;
-    text-transform: capitalize;
-}
-
-.album{
-    height: 300px;
-}
-
- img, iframe{
-    max-height: 100%;
-    max-width: 100%;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-.album-title, .album-year{
-    color: #fafafa;
-    text-transform: uppercase;
-}
-
-.album-title{
-    padding-top: 75px;
-    font-size: 45px;
-}
-
-.music-wrapper{
-    background-color: black;
-}
-
-.music-card{
-    padding: 15px;
 }
 
 /*=================Band-page==*/
@@ -230,11 +189,105 @@ hr{
 }
 
 .history-main p{
-    font-family: lora;
+    font-family: lora, sans-serif;
 }
 
 .history-main h3{
     padding-top: 20px;
+}
+
+/*================Music-page*/
+
+.music-title{
+    background-color: black;
+}
+
+.album-wrapper{
+    background-image: linear-gradient(#f30218, #630d15);
+    border-top: 2px solid black;
+}
+
+.album-wrapper h1{
+    padding-top: 40px;
+    font-size: 80px;
+    text-transform: capitalize;
+}
+
+.album{
+    height: 300px;
+}
+
+ img, iframe{
+    max-height: 100%;
+    max-width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.album-title, .album-year{
+    color: #fafafa;
+    text-transform: uppercase;
+}
+
+.album-title{
+    padding-top: 75px;
+    font-size: 35px;
+}
+
+.music-wrapper{
+    background-color: black;
+}
+
+.music-card{
+    padding: 15px;
+}
+
+/*===============Tour-page*/
+
+.tour-header h1{
+    font-size: 80px;
+    color: #ba1626;
+    padding-top: 40px;
+}
+
+.tour-card-wrapper{
+    background: url("../images/alk-live1.jpg") center center;
+}
+
+.ticket-card{
+  border: 3px solid #ba1626;
+  background-color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+  height: 300px;
+  max-width: 375px;
+  padding-top: 20px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border-radius: 2px;
+}
+
+.ticket-card h2{
+    font-size: 45px;
+    padding-top: 20px;
+}
+
+.btn-sold-out{
+    background-color: #333;
+    color: white;
+    border: 1px solid #d3ab78;
+}
+
+.btn-book-now{
+    background-color: #ba1626;
+    color: #d3ab78;
+    border: 1px solid black;
+}
+
+.btn-book-now:hover{
+    background-color: #d3ab78;
+    color: #ba1626;
+    border: 1px solid black;
 }
 
 /*====================Contact-page*/
@@ -301,37 +354,7 @@ hr{
     color: #d3ab78;
 }
 
-/*=====================Footer*/
-
-.footer-wrapper{
-    background-color: #ba1626;
-    height: 150px;
-    border-top: 3px solid #d3ab78;
-}
-
-/*====social-links===*/
-
-.social-networks{
-    text-align: center;
-    margin: auto;
-}
-
-.social-networks li {
-  display: inline;
-}
-
-.social-networks i {
-  font-size: 2.5rem;
-  padding: 3px;
-  margin: 10px;
-  color: black;
-}
-
-.social-networks i:hover{
-    color: #d3ab78;
-}
-
-/*========================Media-Querys===============================*/
+/*========================Media-Querys*/
 
 @media screen and (max-width: 575px) {
   .header h1 {
@@ -339,16 +362,11 @@ hr{
     padding-top: 25px;
   }
 
-  .footer-wrapper{
-      height: 120px
-  }
-  
   .video-title h1{
       font-size: 70px;
   }
 
   .album-title{
-      font-size: 50px;
       padding-top: 35px;
   }
 }
