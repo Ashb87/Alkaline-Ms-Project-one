@@ -295,7 +295,7 @@ hr{
 
 .bg-contact-main{
     padding-bottom: 40px;
-    background-color: #ba1626;
+    background-image: linear-gradient(#ba1626, black);
 }
 
 .bg-contact-main h1{
