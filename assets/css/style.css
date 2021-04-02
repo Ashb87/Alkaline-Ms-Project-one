@@ -123,7 +123,7 @@ button{
 }
 
 .new-album h3 a{
-    color: #ba1626;
+    color: #f0f0f0;
     text-decoration: none;
 }
 
@@ -359,7 +359,7 @@ hr{
 
 @media screen and (max-width: 575px) {
   .header h1 {
-    font-size: 65px;
+    font-size: 60px;
     padding-top: 25px;
   }
 
