@@ -96,7 +96,7 @@ button{
 .video-title h1{
     text-align: center;
     padding-top: 40px;
-    font-size: 80px;
+    font-size: 60px;
     text-transform: capitalize;
 }
 
@@ -159,7 +159,7 @@ button{
 
 .bg-band-members h1{
     padding-top: 40px;
-    font-size: 80px;
+    font-size: 60px;
     color: #f0f0f0;
 }
 
@@ -210,7 +210,7 @@ hr{
 
 .album-wrapper h1{
     padding-top: 40px;
-    font-size: 80px;
+    font-size: 60px;
     text-transform: capitalize;
 }
 
@@ -246,7 +246,7 @@ hr{
 /*===============Tour-page*/
 
 .tour-header h1{
-    font-size: 80px;
+    font-size: 60px;
     color: #ba1626;
     padding-top: 40px;
 }
@@ -299,7 +299,7 @@ hr{
 }
 
 .bg-contact-main h1{
-    font-size: 80px;
+    font-size: 60px;
     padding-top: 40px;
 }
 
@@ -359,12 +359,8 @@ hr{
 
 @media screen and (max-width: 575px) {
   .header h1 {
-    font-size: 60px;
+    font-size: 65px;
     padding-top: 25px;
-  }
-
-  .video-title h1{
-      font-size: 70px;
   }
 
   .album-title{
