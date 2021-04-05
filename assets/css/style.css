@@ -84,6 +84,9 @@ button{
 
 .social-networks i:hover{
     color: #d3ab78;
+    transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
 }
 
 /*===============Main-body-home-page*/
@@ -314,7 +317,7 @@ hr{
 }
 
 .bg-contact-main .btn-submit:hover{
-    background-color: black;
+    background-color: #ba1626;
     color: #d3ab78;
 }
 
