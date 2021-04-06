@@ -1,6 +1,8 @@
 # Milestone Project One | Alkaline Trio Website
 
 [View the live project here](https://ashb87.github.io/Alkaline-Ms-Project-one/)
+
+<img src="assets/images/responsive.png">
  
 
 ## User Experience - UX
