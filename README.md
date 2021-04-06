@@ -1,9 +1,10 @@
 # Milestone Project One | Alkaline Trio Website
 
-[View the live project here](https://ashb87.github.io/Alkaline-Ms-Project-one/)
 
-<img src="assets/images/responsive.png">
+<img src="assets/readme-images/responsive.png">
  
+
+[View the live project here](https://ashb87.github.io/Alkaline-Ms-Project-one/)
 
 ## User Experience - UX
 
@@ -43,11 +44,44 @@ They will also be able to sign up to a news letter to keep up to date with all t
     * Keep the website upto date and engaging so that fans will want to return again and again.
     * Allow our fans to contact us by sending a direct message through the contact page.
 
-## Wireframes
+## Design
+
+I want the design of the website to reflect the band and their style and so will choose colors that compliment this well. It should be easy 
+to navigate and to have a clear meaning to each page of the site. 
+I want to keep a consistent theme throughout the website by using the same color combinations on every page but also making each page slightly
+unique by changing which colors are used where. For example background and heading colors. I want the site to be attractive for the user and make
+them want to return ot the site again.
+
+
+  * ### Color scheme
+     * The main colors I have used in this project are a shade of red (#ba1626), black and gold (#d3ab78) and also a slightly off white (#f0f0f0).
+       I chose these colors because the band have often used a black and red theme for album covers, and the newest album also incorporates
+       gold. I chose the off white for the header element and also the background color for the history section on the band page
+       because I found it made the paragraphs of text easy to read and also contrasts nicely with the rest of the page as a header. 
+     * Both the red and gold shades were found using the color selector on chrome dev tools. I used the selector to find the correct shade of each color
+       that I felt complimented the site well.
+
+  * ### Typography
+     * The two fonts I have used are *Fjalla One* and *Lora*. Both fonts have been imported from google fonts. I have used *sans-serif* as a backup 
+       font incase the other two for some reason don't load correctly with the site.
+     * I used Lora for the header font and also the paragraphs of text in the history section of the band page. Fjalla One was used for everything else.
+     * I picked these fonts because Lora is a clear and easy to read font so works well for the larger blocks of text and also had the look I wanted for the 
+       header when typed in all capitals. I then picked Fjalla One because I think the two fonts compliment each other nicely and look attractive
+       togehter on the site.
+
+  * ### Imagery
+     * The images I have used for this project are to enhance the visual aspect of the specific page they are related to. The band page with information
+     about the band members and their history has various pictures of the members either on their own or all together. The music page has
+     an image of each of the album covers listed on that page. For the tour page I have used an image for the background of the band playing
+     at a live show. For larger screens the image is displayed just once, for mobile devices the image is repeated as you scroll down the screen.
+     I decided to do this rather than no-repeat because the image looked way too stretched and the bottom and top blend very well together giving it 
+     a very natural look for small screen viewing.
+
+  * ### Wireframes
 
 To make my wireframes I have used balsamiq. I did one for each page and did a design for larger screens and smaller screens to show how the 
 site will be responsive to screen size and change accordingly. The links to each one are below.<br> **__For easier viewing I would recommend clicking the 
-dowload button as they appear much larger when viewed through github__**
+dowload button above the wireframe image as they appear much larger when viewed directly through github__**
 
 * [Home page (md, lg, xl screens)](https://github.com/Ashb87/Alkaline-Ms-Project-one/blob/master/MS1-wireframes/Alkaline-project-home-big.png)
 * [Home page (sm, xs screens)](https://github.com/Ashb87/Alkaline-Ms-Project-one/blob/master/MS1-wireframes/Alkaline-project-home-small.png)
@@ -60,21 +94,12 @@ dowload button as they appear much larger when viewed through github__**
 * [Contact page (md, lg, xl screens)](https://github.com/Ashb87/Alkaline-Ms-Project-one/blob/master/MS1-wireframes/Alkaline-project-contact-big.png)
 * [Contact page (sm, xs screens)](https://github.com/Ashb87/Alkaline-Ms-Project-one/blob/master/MS1-wireframes/Alkaline-project-contact-small.png)
 
-## Design
-
-  * ### Color scheme
-     * The main colors I have used in this project are a shade of red (#ba1626), black and gold (#d3ab78) and also a slightly off white (#f0f0f0).
-       I chose these colors because the band have often used a black and red theme for album covers, and the newest album also incorporates
-       gold. I chose the off white for the header element and also the background color for the history section on the band page
-       because I found it made the paragraphs of text easy to read and also contrasts nicely with the rest of the page as a header.
-
-  * ### Typography
-     * The two fonts I have used are *Fjalla One* and *Lora*. Both fonts have been imported from google fonts. I have used *sans-serif* as a backup 
-       font incase the other two for some reason don't load correctly with the site.
-     * I used Lora for the header font and also the paragraphs of text in the history section of the band page. Fjalla One was used for everything else.
-     * I picked these fonts because Lora is a clear and easy to read font so works well for the larger blocks of text and also had the look I wanted for the 
-       header when typed in all capitals. I then picked Fjalla One because I think the two fonts compliment each other nicely and look attractive
-       togehter on the site.
+I mostly kept the design of the website very similar to that of my wireframes. I decided to change the navbar and only use the burger icon for the 
+smaller screen devices because I preferred the look of having each page link available to see in the header on larger screens. I also centered
+the social links at the bottom of the page with the sign up button above, on all screen sizes rather than just mobile devices.
+The biggest change I made was to the music page. I decided to give each album its own row across the whole screen rather than have three side by side
+as I did in the wireframes. I chose to do this because I wanted to get the image, text and music player for each album on the screen without it feeling
+too squashed or crowded.
 
 ## Features
 
@@ -119,8 +144,30 @@ With the addition of javascript and knowledge of back-end web development I woul
   * A page for merchandise where users could browse items, add to a basket and pay for their items through the website. Followed up by a 
     confirmation of purchase email being sent to the user. 
 
-    
+## Technologies Used
 
+  * [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
+    * The project uses HTML5 to make up the basic elements and structure of the website.
+  * [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
+    * I have used CSS3 to add my own custom styling and to change any default bootstrap styling that didn't fit with the look of the website.
+  * [Balsamiq](https://balsamiq.com/)
+    * I used balsamiq to design and draw up my wireframes before starting the project.
+  * [Bootstrap](https://getbootstrap.com/)
+    * The Bootstrap framework was used to help build the responsive structure of the site and add default styling. 
+    * It was also used to import JavaScript and Jquery which was used for the pop up modal sign up form and the collapsible navbar. 
+  * [Font Awesome](https://fontawesome.com/)
+    * This was used for the logos of the social media links in the footer of the website.  
+  * [Google Fonts](https://fonts.google.com/)
+    * Google fonts was used throughout the project to import my selected fonts Lora and Fjalla-One.
+  * [Gitpod](https://www.gitpod.io/)
+    * Gitpod was the text editor I used to write all of my HTML and CSS code to style and structure the website.
+  * [Git](https://git-scm.com/)
+    * Git is used as version control software to add, commit and push code to my GitHub repository where the code is then stored.
+  * [GitHub](https://github.com/)
+    * I have used GitHub as a remote repository to push and store the committed changes to my project from Git. GitHub pages has also been used to deploy my my live site.
+  * [Google Chrome Developer Tools](https://developer.chrome.com/docs/devtools/)
+    * I have used Google chromes built in developer tools to help with the styling of the site, selecting colors and to help 
+    fix any bugs I found.
  
 
 
