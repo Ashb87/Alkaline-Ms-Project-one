@@ -73,7 +73,51 @@ dowload button as they appear much larger when viewed through github__**
      * I picked these fonts because Lora is a clear and easy to read font so works well for the larger blocks of text and also had the look I wanted for the 
        header when typed in all capitals. I then picked Fjalla One because I think the two fonts compliment each other nicely and look attractive
        togehter on the site.
-       
+
+## Features
+
+  * ### Header and Footer - consistent on all pages
+    * Responsive Navbar that collapses to a burger icon for smaller screens.
+    * A sign up button that when clicked displays a modal with a form to fill in for users of the site to recieve news and updates about the band.
+      Currently due to the scope of the project, when the form is submitted nothing will happen.
+    * Social media links for the band, including **Facebook**, **Twitter**, **YouTube** and **Instagram** These will open a new page and link 
+      to the bands actual social media pages.
+
+  * ### Home page
+    * A video using embedded code from YouTube for one of the bands singles.
+    * An image promoting the new album with a link directing the user to this album on the spotify website.
+    * A link giving the user the option to follow the band on spotify.
+
+  * ### Band page
+    * An image of each of the band members with their date of birth and which instrument the play
+    * A history section about the band with images and text giving information on the history of the bands lineup changes and albums produced.
+
+  * ### Music page
+    * A section for six of the bands albums, each section inlcuding a picture of the album cover, the title and release year, and an audio
+      card for each album with controls. These include all the tracks for each album, which allows the user to listen to the albums as they please. 
+
+  * ### Tour page
+    * A background image of the band playing live intended to add excitement when buying tickets for one of their concerts.
+    * Tour dates with city, venue and opening times, with either a *book now* or *sold out* button.
+    * The book now button will direct the user to the ticketmaster home page.
+    * The sold out button is deactivated and can not be clicked.
+
+  * ### Contact page
+    * A form allowing the user to contact the band with a direct message, each field must be filled in before clicking the submit button.
+      Due to the scope of this project, when the form is submitted nothing will happen.  
+      
+## Features I would like to implement 
+With the addition of javascript and knowledge of back-end web development I would like to add these further features to the website.
+  * When a user signs up with the sign up form on screen they would receive a welcome email and then be included in all future emails 
+    for news and updates regarding the band. 
+  * When a user fills in the contact form the message would be sent to an email address for the band and management to see allowing a response 
+    and or reply.
+  * The tour page would be used for a genuine tour with users being able to book their tickets directly through the website, and the buttons 
+    changing from *book now* to *sold out* when all the tickets were gone.
+  * A page for merchandise where users could browse items, add to a basket and pay for their items through the website. Followed up by a 
+    confirmation of purchase email being sent to the user. 
+
+    
 
  
 
