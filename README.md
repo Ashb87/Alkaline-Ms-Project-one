@@ -1,6 +1,6 @@
 # Milestone Project One | Alkaline Trio Website
 
-[View the live project here]()
+[View the live project here](https://ashb87.github.io/Alkaline-Ms-Project-one/)
  
 
 ## User Experience - UX
@@ -58,7 +58,23 @@ dowload button as they appear much larger when viewed through github__**
 * [Contact page (md, lg, xl screens)](https://github.com/Ashb87/Alkaline-Ms-Project-one/blob/master/MS1-wireframes/Alkaline-project-contact-big.png)
 * [Contact page (sm, xs screens)](https://github.com/Ashb87/Alkaline-Ms-Project-one/blob/master/MS1-wireframes/Alkaline-project-contact-small.png)
 
-    
+## Design
+
+  * ### Color scheme
+     * The main colors I have used in this project are a shade of red (#ba1626), black and gold (#d3ab78) and also a slightly off white (#f0f0f0).
+       I chose these colors because the band have often used a black and red theme for album covers, and the newest album also incorporates
+       gold. I chose the off white for the header element and also the background color for the history section on the band page
+       because I found it made the paragraphs of text easy to read and also contrasts nicely with the rest of the page as a header.
+
+  * ### Typography
+     * The two fonts I have used are *Fjalla One* and *Lora*. Both fonts have been imported from google fonts. I have used *sans-serif* as a backup 
+       font incase the other two for some reason don't load correctly with the site.
+     * I used Lora for the header font and also the paragraphs of text in the history section of the band page. Fjalla One was used for everything else.
+     * I picked these fonts because Lora is a clear and easy to read font so works well for the larger blocks of text and also had the look I wanted for the 
+       header when typed in all capitals. I then picked Fjalla One because I think the two fonts compliment each other nicely and look attractive
+       togehter on the site.
+       
+
  
 
 
