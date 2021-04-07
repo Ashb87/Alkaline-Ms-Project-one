@@ -34,7 +34,7 @@ easy to navigate and pleasing to use for the site visitor.
     1. As a returning visitor I want to see any new video or music content the band have released.
     2. As a returning visitor I want to be able to check for upcoming live shows and book tickets via the website.
     3. As a returning visitor I want to see social media links so I can follow the band on other platforms.
-    4. As a returning visitor I would to read information about the band, so I can learn a little about their history and the current members. 
+    4. As a returning visitor I would like to read information about the band, so I can learn a little about their history and the current members. 
 
   * #### Frequent Visitor Goals
     1. As a frequent visitor I want to see any new video or music content the band have released.
@@ -176,11 +176,11 @@ With the addition of javascript and knowledge of back-end web development I woul
  
  ## Testing
 
-### Testing User Stories
+### Testing User Stories and Site Goals
 
-#### Site owner/band Goals
+### Site Goals
 
-  **1. I want the site to be attractive, responsive and easy to navigate for the user.**
+**1. I want the site to be attractive, responsive and easy to navigate for the user.**
     
 - To get feedback on the visual aspect of the site it has been shared with many friends and family and also other students of code institute
   via the slack portal, the feedback has been very positive. The choice of colors has been 
@@ -190,23 +190,116 @@ With the addition of javascript and knowledge of back-end web development I woul
 - The Navbar is cleary shown in the header of the site and uses a burger icon for smaller screen sizes. Each link to the differnt pages works as intended
   with a clear intent to what each page is for. 
 
-  **2. I want the site to clearly promote who the band are.**
+**2. I want the site to clearly promote who the band are.**
 
 - Upon entering the website their is a clear and bold header with an off white background and black text promoting the bands name which
   stands out against the rest of the website. 
 - Throughout the website there is a video, images, music and a history of the band all to help promote the band and their image.
 
-  **3. I want the user to be able to find the bands social platforms via links in the website.**
+**3. I want the user to be able to find the bands social platforms via links in the website.**
 
 - In the footer of every page there are links to the bands social pages including, Facebook, Twitter, Instagram and YouTube. Each one will 
   open in a new browser window and take the user directly to the desired soical page.
 
-  **4. I want to give the user the oppurtunity to watch vides and listen to music by the band.**
+**4. I want to give the user the oppurtunity to watch vides and listen to music by the band.**
 
 - On the home page there is a big promotional video of the bands new single that will play when the user interacts with the video controls.
   Below this there is a promotional picture for the new album with a clickable link saying *Listen here.* This will take the user to the bands spotify page.
 - On the music page the user has the ability to listen to the music from six different albums using embedded code from spotify. Each album having
   its own set of controls for the user.
 
- 
+**5. I want to promote any upcoming tour dates with the option to book tickets through the site.**
+
+- On the tour page there are six different tour date cards, advertising where and when the show is being held with a *book now* button
+  for four of the six dates. This button will take the user to the [ticketmaster](https://www.ticketmaster.co.uk/) website. The other two dates have *sold out* buttons.
+  These buttons are disabled.
+
+**6. I want the user to be able to sign up to news and updates and also be able to contact us.**
+
+- In the footer of each page is a *sign up* button. When clicked it brings up a modal asking the user if they want to be kept upto date with 
+  the latest news and info for the band. There is a small form to fill in for the user and a submit button. Due to the scope of this project when 
+  the submit button is clicked nothing yet happens.
+
+**7. I want to promote any new singles or albums the band have released.**
+
+- On the home page, directly under the header there is a heading promoting the bands newest single with an official video for the song underneath.
+  using embedded code from YouTube. 
+- Under the video is another heading promoting the bands newest album with a picture of the albums artwork and a link directing the user to the bands spotify page.
+
+### User Stories
+
+#### First Time Visitor Goals
+
+**1. As a first time visitor I Want to understand clearly who the site is for.**
+
+- Upon entering the website their is a clear and bold header with an off white background and black text promoting the bands name which
+  stands out against the rest of the site. 
+- Throughout the website there is a video, images, music and a history of the band all to help promote the band and their image.
+
+**2. As a first time visitor I want the site to be responsive to which ever device I am using to visit it.**
+
+- I have tested the site on many differnet screen sizes, including, Iphone Xr, Ipad mini, Samsung Galaxy tablet, Macbook air and IMac desktop.
+  The site responds well to the different screen sizes and the layout adapts as intended. This is mostly down the bootsrap grid system used when 
+  creating the structure of the website in HTML5.
+- I also ran the site through the mockup screenshot generator [am i responsive](http://ami.responsivedesign.is/) and have used the resulting image
+  at the top of this README file.
+
+**3. As a first time visitor I want to easily navigate around the site to find my desired page.**
+
+- In the header of the page is the navbar with the links to each page **Home,** **Band,** **Music,** **Tour** and **Contact** All clearly 
+  describing what the purpose for each page is. After testing across different screen sizes and internet browsers, the site navigates between 
+  all pages easily and as expected for a user.
+
+**4. As a first time visitor I want the site to be visually attractive and easy to read all content on every page.**
+
+- With the feedback of friends and family and other code institute students via the slack portal I am confident in the design of the website.
+  I believe the colors all compliment each other very well and are visually pleasing for the user. The colors have been selected and put together in
+  a way that makes all text easy to read and to distinguish between different elements on each page.
+
+#### Returning Visitor Goals
+
+**1. As a returning visitor I want to see any new video or music content the band have released.**
+
+- When entering the website the first thing the user will see below the header is a promotional video for the bands latest single.
+- Below the video is a promotional picture and text for the latest album including a link to listen to the album on spotify.
+
+**2. As a returning visitor I want to be able to check for upcoming live shows and book tickets via the website.**
+
+- When a user enters the site they can easily navigate to the tour page. From here they can see all the upcoming shows and have an option to 
+  book tickets via the *book now* button which will direct the user to the ticketmaster website.
+
+**3. As a returning visitor I want to see social media links so I can follow the band on other platforms.**
+
+- In the footer of every page at the bottom is a link to four of the bands social pages. **Facebook,** **Twitter,** **Instagram,**
+  and **YouTube** These links will open in a new page for the user.
+
+**4. As a returning visitor I would like to read information about the band, so I can learn a little about their history and the current members.**
+
+- When entering the website a user can navigate to the *band* page. On this page they will see photos of the band with a little bit of information
+  on each member, followed by a history of the band. Giving information about lineup changes and the recording history of the band. 
+
+#### Frequent Visitor Goals
+
+**1. As a frequent visitor I want to see any new video or music content the band have released.**
+
+- When entering the website the first thing the user will see below the header is a promotional video for the bands latest single.
+- Below the video is a promotional picture and text for the latest album including a link to listen to the album on spotify.
+
+**2. As a frequent visitor I would like to be kept up to date with any news or information regarding the band.**
+
+- In the footer of every page is a *sign up* button. When clicked a modal will display on the screen asking the user if they want to be kept
+  upto date with the bands latest news and info. The user can fill in a small form and then click submit. Due to the scope of this project
+  currently when the submit button is clicked nothing will happen.
+
+**3. As a frequent visitor I would like the option to be able to contact the band.**
+
+- Upon entering the website the user can navigate to the contact page. From here the user can fill in a small form and send a direct message to the band.
+  Due to the scope of this project currently when the submit button is clicked nothing will happen.
+
+**4. As a frequent visitor I would like to be able to listen to the bands music on the website.**
+
+- As a user of the site there are different ways to listen to music. From the home page they can watch the promotional video or click the *listen here*
+  link, which will take the user to the bands spotify page. They can also navigate to the music page on the site and listen to music directly through
+  that page. There is six different albums to choose from and using embedded code from spotify the user is able to listen to all the trascks from each album.
+
  
