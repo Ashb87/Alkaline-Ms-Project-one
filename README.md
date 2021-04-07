@@ -147,31 +147,66 @@ With the addition of javascript and knowledge of back-end web development I woul
     confirmation of purchase email being sent to the user. 
 
 ## Technologies Used
+   ### Languages used
 
-  * [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
-    * The project uses HTML5 to make up the basic elements and structure of the website.
-  * [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
-    * I have used CSS3 to add my own custom styling and to change any default bootstrap styling that didn't fit with the look of the website.
-  * [Balsamiq](https://balsamiq.com/)
-    * I used balsamiq to design and draw up my wireframes before starting the project.
-  * [Bootstrap](https://getbootstrap.com/)
-    * The Bootstrap framework was used to help build the responsive structure of the site and add default styling. 
-    * It was also used to import JavaScript and Jquery which was used for the pop up modal sign up form and the collapsible navbar. 
-  * [Font Awesome](https://fontawesome.com/)
-    * This was used for the logos of the social media links in the footer of the website.  
-  * [Google Fonts](https://fonts.google.com/)
-    * Google fonts was used throughout the project to import my selected fonts Lora and Fjalla-One.
-  * [Gitpod](https://www.gitpod.io/)
-    * Gitpod was the text editor I used to write all of my HTML and CSS code to style and structure the website.
-  * [Git](https://git-scm.com/)
-    * Git is used as version control software to add, commit and push code to my GitHub repository where the code is then stored.
-  * [GitHub](https://github.com/)
-    * I have used GitHub as a remote repository to push and store the committed changes to my project from Git. GitHub pages has also been used to deploy my live site.
-  * [Google Chrome Developer Tools](https://developer.chrome.com/docs/devtools/)
-    * I have used Google chromes built in developer tools to help with the styling of the site, selecting colors and to help 
+  * [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5) <br>
+     The project uses HTML5 to make up the basic elements and structure of the website.
+  * [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS) <br>
+     I have used CSS3 to add my own custom styling and to change any default bootstrap styling that didn't fit with the look of the website.
+  
+  ### Frameworks, Libraries and Programs Used
+  * [Balsamiq](https://balsamiq.com/) <br>
+     I used balsamiq to design and draw up my wireframes before starting the project.
+  * [Bootstrap](https://getbootstrap.com/) <br>
+     The Bootstrap framework was used to help build the responsive structure of the site and add default styling. <br>
+     It was also used to import JavaScript and Jquery which was used for the pop up modal sign up form and the collapsible navbar. 
+  * [Font Awesome](https://fontawesome.com/) <br>
+     This was used for the logos of the social media links in the footer of the website.  
+  * [Google Fonts](https://fonts.google.com/) <br>
+     Google fonts was used throughout the project to import my selected fonts Lora and Fjalla-One.
+  * [Gitpod](https://www.gitpod.io/) <br>
+     Gitpod was the text editor I used to write all of my HTML and CSS code to style and structure the website.
+  * [Git](https://git-scm.com/) <br>
+     Git is used as version control software to add, commit and push code to my GitHub repository where the code is then stored.
+  * [GitHub](https://github.com/) <br>
+     I have used GitHub as a remote repository to push and store the committed changes to my project from Git. GitHub pages has also been used to deploy my live site.
+  * [Google Chrome Developer Tools](https://developer.chrome.com/docs/devtools/) <br>
+     I have used Google chromes built in developer tools to help with the styling of the site, selecting colors and to help 
     fix any bugs I found.
  
+ ## Testing
 
+### Testing User Stories
+
+#### Site owner/band Goals
+
+  **1. I want the site to be attractive, responsive and easy to navigate for the user.**
+    
+- To get feedback on the visual aspect of the site it has been shared with many friends and family and also other students of code institute
+  via the slack portal, the feedback has been very positive. The choice of colors has been 
+- I have tested the site on many differnet screen sizes, including, Iphone Xr, Ipad mini, Samsung Galaxy tablet, Macbook air and IMac desktop.
+  The site responds well to the different screen sizes and the layout adapts as intended. This is mostly down the bootsrap grid system used when 
+  creating the structure of the website in HTML5.
+- The Navbar is cleary shown in the header of the site and uses a burger icon for smaller screen sizes. Each link to the differnt pages works as intended
+  with a clear intent to what each page is for. 
+
+  **2. I want the site to clearly promote who the band are.**
+
+- Upon entering the website their is a clear and bold header with an off white background and black text promoting the bands name which
+  stands out against the rest of the website. 
+- Throughout the website there is a video, images, music and a history of the band all to help promote the band and their image.
+
+  **3. I want the user to be able to find the bands social platforms via links in the website.**
+
+- In the footer of every page there are links to the bands social pages including, Facebook, Twitter, Instagram and YouTube. Each one will 
+  open in a new browser window and take the user directly to the desired soical page.
+
+  **4. I want to give the user the oppurtunity to watch vides and listen to music by the band.**
+
+- On the home page there is a big promotional video of the bands new single that will play when the user interacts with the video controls.
+  Below this there is a promotional picture for the new album with a clickable link saying *Listen here.* This will take the user to the bands spotify page.
+- On the music page the user has the ability to listen to the music from six different albums using embedded code from spotify. Each album having
+  its own set of controls for the user.
 
  
  
