@@ -4,45 +4,44 @@
 <img src="assets/readme-images/responsive.png">
  
 
-[View the live project here](https://ashb87.github.io/Alkaline-Ms-Project-one/)
+[View the live project here](https://ashb87.github.io/Alkaline-Ms-Project-one/) <br>
+This website has been created for my Milestone 1 User Centric Frontend Development project.  
+I want to create a site for current and potential fans of the band **__Alkaline Trio,__** that is responsive to different sceen sizes,
+easy to navigate and pleasing to use for the site visitor.  
 
 ## User Experience - UX
 
- My website has been designed for current and potential fans of the band **__Alkaline Trio,__** 
- the website has been designed for those who would like:
-  * Some information on the band members and the history of the band.
-  * Information on any upcoming tour dates.
-  * Links to the bands social media pages including:
-    * Facebook
-    * Twitter
-    * Instagram
-    * Youtube
-  * To listen to the bands music and see their discography.
-  * To contact the band.<br>
+### Site Goals
 
-They will also be able to sign up to a news letter to keep up to date with all the current news, tour dates and new music coming out.
+  - #### Site owner/band Goals
+    1. I want the site to be attractive, responsive and easy to navigate for the user.
+    2. I want the site to clearly promote who the band are.
+    3. I want the user to be able to find the bands social platforms via links in the website.
+    4. I want to give the user the oppurtunity to watch vides and listen to music by the band.
+    5. I want to promote any upcoming tour dates with the option to book tickets through the site.
+    6. I want the user to be able to sign up to news and updates and also be able to contact us.
+    7. I want to promote any new singles or albums the band have released.
 
-## User Stories
+### User Stories
 
-* As a fan or potential fan of the band visiting this website reguarly, or for the first time I would like:
-    * To easily navigate the site to get to the relevant page.
-    * The site to be responsive to whichever device I am currently using to visit the site. 
-    * To find the contrast of colours throughout the site pleasing on the eye and easy to distinguish between different features.
-    * To locate the bands social media links and open them in a new browser whilst still remaining on their website.
-    * To find information about the band, so I can learn a little about their history and the current members.
-    * To see the most up to date tour dates and be able to book tickets through the website.
-    * To sign up to a newsletter so I an be kept up to date wiht the most recent news regarding the band via email. 
-    * To listen to music from different albums and watch videos of the bands singles.
-    * To contact the band.
+  * #### First Time Visitor Goals 
+    1. As a first time visitor I Want to understand clearly who the site is for.
+    2. As a first time visitor I want the site to be responsive to which ever device I am using to visit it.
+    3. As a first time visitor I want to easily navigate around the site to find my desired page.
+    4. As a first time visitor I want the site to be visually attractive and easy to read all content on every page.
 
-* As a member of the band or part of their management I would like this website to:
-    * Promote exactly who we are in a clear and pleasing way.
-    * Promote any upcoming tour dates we have and get ticket sales directly through the website.
-    * Promote any new music videos we have released and allow visitors to listen to music from our past albums.
-    * Give fans the chance to sign up to a news letter to keep them up to date with the latest news which may include future tour dates
-    which in turn will help generate more ticket sales.
-    * Keep the website upto date and engaging so that fans will want to return again and again.
-    * Allow our fans to contact us by sending a direct message through the contact page.
+  * #### Returning Visitor Goals
+    1. As a returning visitor I want to see any new video or music content the band have released.
+    2. As a returning visitor I want to be able to check for upcoming live shows and book tickets via the website.
+    3. As a returning visitor I want to see social media links so I can follow the band on other platforms.
+    4. As a returning visitor I would to read information about the band, so I can learn a little about their history and the current members. 
+
+  * #### Frequent Visitor Goals
+    1. As a frequent visitor I want to see any new video or music content the band have released.
+    2. As a frequent visitor I would like to be kept up to date with any news or information regarding the band.
+    3. As a frequent visitor I would like the option to be able to contact the band.
+    4. As a frequent visitor I would like to be able to listen to the bands music on the website.        
+
 
 ## Design
 
@@ -102,6 +101,9 @@ as I did in the wireframes. I chose to do this because I wanted to get the image
 too squashed or crowded.
 
 ## Features
+
+  * ### Across all pages
+    * Responsive design for different screen sizes while maintaining a clear and attractive layout across all pages.
 
   * ### Header and Footer - consistent on all pages
     * Responsive Navbar that collapses to a burger icon for smaller screens.
@@ -164,7 +166,7 @@ With the addition of javascript and knowledge of back-end web development I woul
   * [Git](https://git-scm.com/)
     * Git is used as version control software to add, commit and push code to my GitHub repository where the code is then stored.
   * [GitHub](https://github.com/)
-    * I have used GitHub as a remote repository to push and store the committed changes to my project from Git. GitHub pages has also been used to deploy my my live site.
+    * I have used GitHub as a remote repository to push and store the committed changes to my project from Git. GitHub pages has also been used to deploy my live site.
   * [Google Chrome Developer Tools](https://developer.chrome.com/docs/devtools/)
     * I have used Google chromes built in developer tools to help with the styling of the site, selecting colors and to help 
     fix any bugs I found.
