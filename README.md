@@ -174,7 +174,7 @@ With the addition of javascript and knowledge of back-end web development I woul
      I have used Google chromes built in developer tools to help with the styling of the site, selecting colors and to help 
     fix any bugs I found.
  
- ## Testing
+## Testing
 
 ### Testing User Stories and Site Goals
 
@@ -302,4 +302,68 @@ With the addition of javascript and knowledge of back-end web development I woul
   link, which will take the user to the bands spotify page. They can also navigate to the music page on the site and listen to music directly through
   that page. There is six different albums to choose from and using embedded code from spotify the user is able to listen to all the trascks from each album.
 
- 
+### Responsive Testing
+
+To test the responsiveness of my website I was using chrome dev tools throughout the production of the site. This helped me to see how it would appear 
+across different screen sizes and make any alterations as required. It was a great to see exactly where the breakpoints were and help decide 
+at which point the layout should change to adapt to the display size.
+
+Further to this I tested the site myself across as many different devices that I had access too. Theese included **Iphone xr,** **Iphone 12,** **Ipad mini,**
+**Samsung galaxy tablet,** **Apple macbook air** and a 21.5 inch **Apple imac** These devices gave me a good idea of the most common screen sizes
+used. The site responded well to each of the different screen sizes and displayed as I intended. Initially I found the contact form loooked too large
+across larger screen sizes so using bootstrap columns and the *offset* property reduced its size for all large screens.
+
+When I felt the site was close to being complete I used the mockup screenshot generator **am I responsive** to get an image of the homepage across
+different size devices and have used this image at the top of this README file.
+
+### HTML and CSS Testing
+
+* To test my HTML code I used the [W3C Markup Validator Tool](https://validator.w3.org/)
+
+* To test my CSS code I used the [W3C CSS Validator Tool](https://jigsaw.w3.org/css-validator/) 
+
+### Further Testing
+
+* I have tested the site across different browsers incluing, **Google Chrome,** **Safari,** **Internet Explorer** and **Microsoft Edge.**
+  The site worked as expected across all browsers and the display remained exactly the same.
+* As mentioned in the responsive testing section I have tried the site across different devices including **Iphone xr,** **Iphone 12,** **Ipad mini,**
+**Samsung galaxy tablet,** **Apple macbook air** and a 21.5 inch **Apple imac** All of which work and display as expected.
+* Using each of the different devices and internet browsers I have given a large amount of testing to the sites links, both internal and external.
+  All of the links work smoothly and as expected and all external links open in new windows. 
+* I have asked friends and family for opinions and feedback on the appearance and usability of the site. This has helped to recognise any bugs or issues
+  I may not have noticed myself and given me extra feeedback on even more devices and screen sizes. 
+
+### Known Issues and Bugs
+
+* When testing the site through chrome dev tools for mobile devices I noticed the site would move about from left to right as if it wasnt 
+  properly in place. At first I found a solution to this online using css code which was to target the **body** element and use the property **overflow: hidden.**
+  This did sort the problem and fixed the site in place so no longer had the left and right movement. However I quickly noticed that this gave me a new 
+  issue. On mobile devices only there was a now a problem with the scrolling. When changing from one page to another there was a delay before I was able
+  to scroll down the page. After speaking with my mentor he explained I had fixed an issue by creating a new one and therefore should focus on 
+  fixing my inital problem without adding more unnecessary code. So using chrome dev tools I came to the conclusion that it was an overflow issue causing the 
+  movement even though all my text appeared to display on the screen as intended. But by reducing the size of the main headings on each page, it quickly resolved the 
+  issue and stopped any movement and the problemn was fixed.
+
+* Using embedded code taken from spotify, I wanted to create a link allowing users to follow the band. I copied the code into my HTML file 
+  and placed the link where I wanted it to be without any issues. However when viewing the site only half of the link was actually visible to the user.
+  Using chrome dev tools I foucsed on the element and realised it had some default padding on it that was covering half of the link. I set the 
+  padding to 0 and it was then visible on the site.
+
+* When some other students from code institute reviewed my site for me I had positive feedback regarding the responsiveness. Except for one user who was using
+  an Iphone 8, She sent me a screen shot to show me how the heading **discography** on the music page was overflowing out the side of the screen.
+  This was really helpful feedback for me because across the devices I had used to test the site I had not experienced this. I reduced the heading size 
+  across all pages by 5px and asked the user to review again, this time with positive feedback and the heading no longer overflowing.
+
+## Deployment
+
+### Initial creation
+
+I created the repository using the following steps:
+ 1. Logging into my github account and clickng the green button near the top left of the page displaying the text **NEW.**
+ 2. This took me to a page with the option to create a new repository. Under *repository template* I clicked on the *code institute* template.
+    I chose a name for the repository suitable for the project and then clicked the *create repository* button.
+ 3. I opened the new repository and clicked the green *gitpod* button to create a new workplace in Gitpod for writing and editing my code to 
+    develop the site.
+
+###
+
