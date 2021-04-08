@@ -14,13 +14,11 @@ body{
 
 /*----------Background Colors*/
 
-.bg-header{
-    background-color: #f0f0f0;
-}
-
+.bg-header,
+.bg-history-head,
+.bg-history-main,
 #bg-nav{
     background-color: #f0f0f0;
-    border-bottom: 3px solid black;
 }
 
 .bg-footer{
@@ -31,7 +29,46 @@ body{
     background-color: black;
 }
 
-/*----------Header-Consistent on every page*/
+.bg-band-members{
+    background-color: #ba1626;
+    border-bottom: 3px solid black;
+}
+
+/*----------Buttons*/
+
+/*---tour page*/
+.btn-sold-out{
+    background-color: #333;
+    color: white;
+    border: 1px solid #d3ab78;
+}
+
+.btn-book-now{
+    background-color: #ba1626;
+    color: #d3ab78;
+    border: 1px solid black;
+}
+
+.btn-book-now:hover{
+    background-color: #d3ab78;
+    color: #ba1626;
+    border: 1px solid black;
+}
+
+/*---contact page*/
+
+.bg-contact-main .btn-submit{
+    background-color: #d3ab78;
+    color: #ba1626;
+    border: none;
+}
+
+.bg-contact-main .btn-submit:hover{
+    background-color: #ba1626;
+    color: #d3ab78;
+}
+
+/*----------Header-same on every page*/
 
 .header-wrapper{
     padding-right: 0;
@@ -40,7 +77,7 @@ body{
 
 .header{
     text-align: center;
-    border-top: 3px solid black;
+    border-top: 3px solid;
 }
 
 .header h1{
@@ -51,6 +88,10 @@ body{
 }
 
 /*----------NavBar*/
+
+.navbar{
+    border-bottom: 3px solid;
+}
 
 .navbar-nav{
     text-align: center;
@@ -69,7 +110,7 @@ button{
     border-color: #333333;
 }
 
-/*----------Footer-Consistent-on-every-page*/
+/*----------Footer-Same on every page*/
 
 .footer-wrapper{
     height: 150px;
@@ -139,6 +180,17 @@ button{
 
 /*----------Band-page*/
 
+.bg-band-members h2{
+    padding-top: 40px;
+    font-size: 60px;
+    color: #f0f0f0;
+}
+
+.bg-band-members h3{
+    font-size: 40px;
+    padding-top: 10px;
+}
+
 .band-img-wrapper{
     width: 100%;
     padding-left: 25px;
@@ -158,31 +210,14 @@ button{
     height: 100%;
 }
 
-.bg-band-members{
-    background-color: #ba1626;
-    border-bottom: 3px solid black;
-}
-
-.bg-band-members h1{
-    padding-top: 40px;
-    font-size: 60px;
-    color: #f0f0f0;
-}
-
-.bg-band-members h2{
-    font-size: 40px;
-    padding-top: 10px;
-}
-
 hr{
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid;
     width: 120px;
     margin: 0 auto;
 }
 
 .history-header{
     text-transform: capitalize;
-    background-color: #f0f0f0;
     padding-top: 30px;
 }
 
@@ -191,7 +226,6 @@ hr{
 }
 
 .history-main{
-    background-color: #f0f0f0;
     padding: 20px 30px 20px 20px;
 }
 
@@ -203,18 +237,14 @@ hr{
     padding-top: 20px;
 }
 
-/*================Music-page*/
-
-.music-title{
-    background-color: black;
-}
+/*----------Music-page*/
 
 .album-wrapper{
     background-image: linear-gradient(#f30218, #630d15);
-    border-top: 2px solid black;
+    border-top: 2px solid;
 }
 
-.album-wrapper h1{
+.album-wrapper h4{
     padding-top: 40px;
     font-size: 60px;
     text-transform: capitalize;
@@ -241,17 +271,9 @@ hr{
     font-size: 35px;
 }
 
-.music-wrapper{
-    background-color: black;
-}
+/*----------Tour-page*/
 
-.music-card{
-    padding: 15px;
-}
-
-/*===============Tour-page*/
-
-.tour-header h1{
+.tour-heading h2{
     font-size: 60px;
     color: #ba1626;
     padding-top: 40px;
@@ -274,37 +296,23 @@ hr{
   border-radius: 2px;
 }
 
-.ticket-card h2{
+.ticket-card h3{
     font-size: 45px;
     padding-top: 20px;
 }
 
-.btn-sold-out{
-    background-color: #333;
-    color: white;
-    border: 1px solid #d3ab78;
+.city{
+    font-size: 35px;
 }
 
-.btn-book-now{
-    background-color: #ba1626;
-    color: #d3ab78;
-    border: 1px solid black;
-}
-
-.btn-book-now:hover{
-    background-color: #d3ab78;
-    color: #ba1626;
-    border: 1px solid black;
-}
-
-/*====================Contact-page*/
+/*----------Contact-page*/
 
 .bg-contact-main{
     padding-bottom: 40px;
     background-image: linear-gradient(#ba1626, black);
 }
 
-.bg-contact-main h1{
+.bg-contact-main h2{
     font-size: 60px;
     padding-top: 40px;
 }
@@ -313,18 +321,7 @@ hr{
     background-color: #f0f0f0;
 }
 
-.bg-contact-main .btn-submit{
-    background-color: #d3ab78;
-    color: #ba1626;
-    border: none;
-}
-
-.bg-contact-main .btn-submit:hover{
-    background-color: #ba1626;
-    color: #d3ab78;
-}
-
-/*====================Modal*/
+/*----------Modal*/
 
 .btn-wrapper{
     text-align: center;
@@ -361,7 +358,7 @@ hr{
     color: #d3ab78;
 }
 
-/*========================Media-Querys*/
+/*----------Media-Querys*/
 
 @media screen and (max-width: 575px) {
   .header h1 {
