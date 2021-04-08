@@ -12,7 +12,26 @@ body{
     font-family: "Fjalla one", sans-serif;
 }
 
-/*===============Header-Consistent-on-every-page*/
+/*----------Background Colors*/
+
+.bg-header{
+    background-color: #f0f0f0;
+}
+
+#bg-nav{
+    background-color: #f0f0f0;
+    border-bottom: 3px solid black;
+}
+
+.bg-footer{
+    background-color: #ba1626;
+}
+
+.bg-home{
+    background-color: black;
+}
+
+/*----------Header-Consistent on every page*/
 
 .header-wrapper{
     padding-right: 0;
@@ -20,7 +39,6 @@ body{
 }
 
 .header{
-    background-color: #f0f0f0;
     text-align: center;
     border-top: 3px solid black;
 }
@@ -29,10 +47,10 @@ body{
     font-size: 150px;
     padding-top: 25px;
     text-transform: uppercase;
-    color: black;
     font-family: lora, sans-serif;
 }
-/*=====NavBar====*/
+
+/*----------NavBar*/
 
 .navbar-nav{
     text-align: center;
@@ -43,11 +61,6 @@ button{
     margin: 0 auto;
 }
 
-#bg-color{
-    background-color: #f0f0f0;
-    border-bottom: 3px solid black;
-}
-
 .nav-item{
     font-size: 35px;
 }
@@ -56,15 +69,14 @@ button{
     border-color: #333333;
 }
 
-/*==============Footer-Consistent-on-every-page*/
+/*----------Footer-Consistent-on-every-page*/
 
 .footer-wrapper{
-    background-color: #ba1626;
     height: 150px;
     border-top: 3px solid #d3ab78;
 }
 
-/*====social-links===*/
+/*----------social-links*/
 
 .social-networks{
     text-align: center;
@@ -76,7 +88,7 @@ button{
 }
 
 .social-networks i {
-  font-size: 2.5rem;
+  font-size: 40px;
   padding: 3px;
   margin: 10px;
   color: black;
@@ -89,40 +101,31 @@ button{
     -webkit-transition: all .3s ease-in-out;
 }
 
-/*===============Main-body-home-page*/
-.main{
-    background-color: black;
+/*----------Home Page*/
+.home{
     color: #ba1626;
-    padding-bottom: 30px;
 }
 
-.video-title h1{
-    text-align: center;
+.video-heading h2,
+.new-album h2{
     padding-top: 40px;
     font-size: 60px;
     text-transform: capitalize;
 }
 
-.video-title h2{
-    text-align: center;
+.video-heading h3{
     padding-top: 10px;
     font-size: 40px;
     text-transform: capitalize
 }
 
-.follow{
+.follow-link{
     padding: 0;
 }
 
 .new-album{
     background-image: linear-gradient(black, #ba1626);
     padding-bottom: 30px;
-}
-
-.new-album h2{
-    color: #ba1626;
-    font-size: 70px;
-    padding-top: 40px;
 }
 
 .new-album h3 a{
@@ -134,7 +137,7 @@ button{
     color: #d3ab78;
 }
 
-/*=================Band-page==*/
+/*----------Band-page*/
 
 .band-img-wrapper{
     width: 100%;
