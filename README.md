@@ -182,8 +182,7 @@ With the addition of javascript and knowledge of back-end web development I woul
 
 **1. I want the site to be attractive, responsive and easy to navigate for the user.**
     
-- To get feedback on the visual aspect of the site it has been shared with many friends and family and also other students of code institute
-  via the slack portal, the feedback has been very positive. The choice of colors has been 
+- To get feedback on the visual aspect of the site it has been shared with many friends and family and also other students of code institute via the slack portal. The feedback on the visual aspect has been really good, with the choice of colors, particulary on the pages where two colors fade in to each other, receiving very positive reviews.
 - I have tested the site on many differnet screen sizes, including, Iphone Xr, Ipad mini, Samsung Galaxy tablet, Macbook air and IMac desktop.
   The site responds well to the different screen sizes and the layout adapts as intended. This is mostly down the bootsrap grid system used when 
   creating the structure of the website in HTML5.
@@ -320,7 +319,16 @@ different size devices and have used this image at the top of this README file.
 
 * To test my HTML code I used the [W3C Markup Validator Tool](https://validator.w3.org/)
 
+Each Html page was put through the Markup Validator and all came back with a common warning which was that I had used more than one **H1** element on the same page. I have used an H1 elemenet for my main Header Text, but also used the H1 element for the main heading text on each page. So I went through my HTML and changed each one to an H2 element and changed the CSS to suit. This then changed any existing H2 elements I already had so then had to got through the rest of my HTML code on each page and make a few tweeks to all of my heading elements and chnage the CSS to match.
+
+Other than a couple of empty elements I had added and not used for e.g an H4 element, All pages then passed the Validator without any errors or warnings. 
+
 * To test my CSS code I used the [W3C CSS Validator Tool](https://jigsaw.w3.org/css-validator/) 
+
+I then ran my CSS code through the CSS Validator which came back with no issues.
+
+Results pictured below <br>
+<img src="assets/readme-images/css-validator.png" width="600" height="300">
 
 ### Further Testing
 
