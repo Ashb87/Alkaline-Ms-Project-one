@@ -399,6 +399,22 @@ To make a clone of my project use the following steps:
  3. Click on **Download Zip.**
  4. Once dowloaded, you can extract the zip file's contents and save to a desktop and run the website locally.
 
+## Credits
 
+### Code & Content
 
+All Content for the site was created by Ashley Buy, using the help of the following:
+  * [Bootstrap](https://getbootstrap.com/) was used throughout the development of the site to help make the site responsive using the Bootstrap grid system.
+  * [Spotify](https://www.spotify.com/uk/home/) was used to provide embedded code to add links and media devices to the site allowing the user to listen music directly through the website, and follow the band using links provided.
+  * [YouTube](https://www.spotify.com/uk/home/) was used to add embedded code for the promotional vidoe on the home page of the site.
+ * [Wikipedia](https://www.wikipedia.org/) was used to source information on the band and their history.
+ * [Google](https://www.google.com/) was used to find real music venues across the USA to make my fictional tour date cards. It was also used to source all images used in the website.
+
+### Acknowledgements
+  
+  * [Code Institute](https://codeinstitute.net/) For getting me this far.
+  * [Sunny Hebbar](https://github.com/hebs87) For the many questions I have asked and the always helpful replies. Thank you!
+  * The **Mini Feb 20201** team on slack for all the feedback and support given to each other.
+  * My mentor Maranatha Ilesanmi for helping to guide me through my first project.
+  * Friends and Family who have taken their time to offer advice and feedback duirng the devolopment of my project.
 
