@@ -373,5 +373,32 @@ I created the repository using the following steps:
  3. I opened the new repository and clicked the green *gitpod* button to create a new workplace in Gitpod for writing and editing my code to 
     develop the site.
 
-###
+### Github Pages
+
+My project was deployed to GitHub pages using the following steps:
+ 1. Logging in to my GitHub account and opening the relevan repository.
+ 2. Click on the settings button, located just above the green **GITPOD** button.
+ 3. In settings scroll down to the **GitHub Pages** section.
+ 4. Under **source** click the dropdown button labelled **None** and select **Master Branch.**
+ 5. The page will automatically refresh itself and after a few moments the published site link will be availible to click 
+ on the **GitHub Page** section.
+
+### Forking the GitHub Repository
+
+Forking a repository enables us to make a copy of the original repository on our GitHub account so we can view it and make changes with out affecting the original work.
+This is done using the following steps:
+ 1. Log in to GitHub account and select the relevant repository.
+ 2. To the top right of the page there are three the buttons, the furthest right says **Fork.** Click on this button.
+ 3. A copy of the original repository will now be in your account.
+
+### Making a Clone
+
+To make a clone of my project use the following steps:
+ 1. Go to my acoount and locate relevant repository.
+ 2. Next to the green **Gitpod** button, click on **CODE.**
+ 3. Click on **Download Zip.**
+ 4. Once dowloaded, you can extract the zip file's contents and save to a desktop and run the website locally.
+
+
+
 
