@@ -395,7 +395,7 @@ Results pictured below <br>
 ### Initial creation
 
 I created the repository using the following steps:
- 1. Logging into my github account and clickng the green button near the top left of the page displaying the text **NEW.**
+ 1. Logging into my [GitHub](https://github.com/Ashb87/Alkaline-Ms-Project-one) account and clickng the green button near the top left of the page displaying the text **NEW.**
  2. This took me to a page with the option to create a new repository. Under *repository template* I clicked on the *code institute* template.
     I chose a name for the repository suitable for the project and then clicked the *create repository* button.
  3. I opened the new repository and clicked the green *gitpod* button to create a new workplace in Gitpod for writing and editing my code to 
@@ -404,7 +404,7 @@ I created the repository using the following steps:
 ### Github Pages
 
 My project was deployed to GitHub pages using the following steps:
- 1. Logging in to my GitHub account and opening the relevan repository.
+ 1. Logging in to my [GitHub](https://github.com/Ashb87/Alkaline-Ms-Project-one) account and opening the relevant repository.
  2. Click on the settings button, located just above the green **GITPOD** button.
  3. In settings scroll down to the **GitHub Pages** section.
  4. Under **source** click the dropdown button labelled **None** and select **Master Branch.**
@@ -415,14 +415,14 @@ My project was deployed to GitHub pages using the following steps:
 
 Forking a repository enables us to make a copy of the original repository on our GitHub account so we can view it and make changes with out affecting the original work.
 This is done using the following steps:
- 1. Log in to GitHub account and select the relevant repository.
+ 1. Log in to [GitHub](https://github.com/Ashb87/Alkaline-Ms-Project-one) account and select the relevant repository.
  2. To the top right of the page there are three the buttons, the furthest right says **Fork.** Click on this button.
  3. A copy of the original repository will now be in your account.
 
 ### Making a Clone
 
 To make a clone of my project use the following steps:
- 1. Go to my acoount and locate relevant repository.
+ 1. Go to my [account](https://github.com/Ashb87/Alkaline-Ms-Project-one) and locate relevant repository.
  2. Next to the green **Gitpod** button, click on **CODE.**
  3. Click on **Download Zip.**
  4. Once dowloaded, you can extract the zip file's contents and save to a desktop and run the website locally.
