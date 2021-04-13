@@ -7,9 +7,37 @@
 [View the live project here](https://ashb87.github.io/Alkaline-Ms-Project-one/) <br>
 This website has been created for my Milestone 1 User Centric Frontend Development project.  
 I want to create a site for current and potential fans of the band **__Alkaline Trio,__** that is responsive to different sceen sizes,
-easy to navigate and pleasing to use for the site visitor.  
+easy to navigate and pleasing to use for the site visitor. 
 
-## User Experience - UX
+## Contents 
+
+ * [User Experience](#user-experience-(ux))
+   - [Site Goals](#site-goals)
+   - [User Stories](#user-stories)
+   - [Design](#design)
+     - [Color Scheme](#color-scheme)
+     - [Typography](#typography)
+     - [Imagery](#imagery)
+     - [Wireframes](#wireframes)
+
+ * [Features](#features)
+   - [Current Features](#across-all-pages) 
+   - [Features to implement in the future](#features-i-would-like-to-implement)
+
+ * [Technologies Used](#technologies-used)  
+
+ * [Testing](#testing)
+   - [Testing User Stories and Site Goals](#testing-user-stories-and-site-goals)
+   - [Responsive Testing](#responsive-testing)
+   - [HTML & CSS Testing](#html-and-css-testing)
+   - [Further Testing](#further-testing)
+   - [Known issues & Bugs](#known-Issues-and-bugs)
+
+ * [Deployment](#deployment)  
+
+ * [Credits](#credits)
+
+## User Experience - (UX)
 
 ### Site Goals
 
@@ -43,7 +71,7 @@ easy to navigate and pleasing to use for the site visitor.
     4. As a frequent visitor I would like to be able to listen to the bands music on the website.        
 
 
-## Design
+### Design
 
 I want the design of the website to reflect the band and their style and so will choose colors that compliment this well. It should be easy 
 to navigate and to have a clear meaning to each page of the site. 
@@ -52,7 +80,7 @@ unique by changing which colors are used where. For example background and headi
 them want to return ot the site again.
 
 
-  * ### Color scheme
+  * #### Color scheme
      * The main colors I have used in this project are a shade of red (#ba1626), black and gold (#d3ab78) and also a slightly off white (#f0f0f0).
        I chose these colors because the band have often used a black and red theme for album covers, and the newest album also incorporates
        gold. I chose the off white for the header element and also the background color for the history section on the band page
@@ -60,7 +88,7 @@ them want to return ot the site again.
      * Both the red and gold shades were found using the color selector on chrome dev tools. I used the selector to find the correct shade of each color
        that I felt complimented the site well.
 
-  * ### Typography
+  * #### Typography
      * The two fonts I have used are *Fjalla One* and *Lora*. Both fonts have been imported from google fonts. I have used *sans-serif* as a backup 
        font incase the other two for some reason don't load correctly with the site.
      * I used Lora for the header font and also the paragraphs of text in the history section of the band page. Fjalla One was used for everything else.
@@ -68,7 +96,7 @@ them want to return ot the site again.
        header when typed in all capitals. I then picked Fjalla One because I think the two fonts compliment each other nicely and look attractive
        togehter on the site.
 
-  * ### Imagery
+  * #### Imagery
      * The images I have used for this project are to enhance the visual aspect of the specific page they are related to. The band page with information
      about the band members and their history has various pictures of the members either on their own or all together. The music page has
      an image of each of the album covers listed on that page. For the tour page I have used an image for the background of the band playing
@@ -76,7 +104,7 @@ them want to return ot the site again.
      I decided to do this rather than no-repeat because the image looked way too stretched and the bottom and top blend very well together giving it 
      a very natural look for small screen viewing.
 
-  * ### Wireframes
+  * #### Wireframes
 
 To make my wireframes I have used balsamiq. I did one for each page and did a design for larger screens and smaller screens to show how the 
 site will be responsive to screen size and change accordingly. The links to each one are below.<br> **__For easier viewing I would recommend clicking the 
