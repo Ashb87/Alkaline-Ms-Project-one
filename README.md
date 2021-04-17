@@ -88,6 +88,8 @@ them want to return ot the site again.
      * Both the red and gold shades were found using the color selector on chrome dev tools. I used the selector to find the correct shade of each color
        that I felt complimented the site well.
 
+        <img src="assets/readme-images/color-pallette.png" width="700" height="100">
+
   * #### Typography
      * The two fonts I have used are *Fjalla One* and *Lora*. Both fonts have been imported from google fonts. I have used *sans-serif* as a backup 
        font incase the other two for some reason don't load correctly with the site.
