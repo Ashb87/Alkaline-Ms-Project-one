@@ -345,6 +345,30 @@ across larger screen sizes so using bootstrap columns and the *offset* property 
 When I felt the site was close to being complete I used the mockup screenshot generator **am I responsive** to get an image of the homepage across
 different size devices and have used this image at the top of this README file.
 
+### Lighthouse Testing
+
+  * I tested the performance of each page through google lighthouse, and have added screenshots of the results below.
+
+### Home Page <br>
+
+<img src="assets/readme-images/lighthouse-home.png" width="600" height="150">
+
+### Band Page <br>
+
+<img src="assets/readme-images/lighthouse-band.png" width="600" height="150">
+
+### Music Page <br>
+
+<img src="assets/readme-images/lighthouse-music.png" width="600" height="150">
+
+### Tour Page <br>
+
+<img src="assets/readme-images/lighthouse-tour.png" width="600" height="150">
+
+### Contact Page <br>
+
+<img src="assets/readme-images/lighthouse-contact.png" width="600" height="150">
+
 ### HTML and CSS Testing
 
 * To test my HTML code I used the [W3C Markup Validator Tool](https://validator.w3.org/)
