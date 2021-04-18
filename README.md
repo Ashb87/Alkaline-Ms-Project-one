@@ -369,6 +369,12 @@ different size devices and have used this image at the top of this README file.
 
 <img src="assets/readme-images/lighthouse-contact.png" width="600" height="150">
 
+Overall I was pleased with the performance scores I receievd for each page with the biggest variation being the 
+**best practices** scores. When looking further into the results each page came back with the same issue which was described as 
+"Some third-party scripts may contain known security vulnerabilities that are easily identified and exploited by attackers" 
+The vulnerabilities detected were from using **bootstrap 4.1.3** and **jQuery.**
+The scores for the **Home,** **Band** and **Music** page were slightly lower than the other two pages. Lighthouse reported this as being an issue with the aspect ratio on the images used. So I then used the website [TinyJPG](https://tinyjpg.com/) to put all my images through to reduce the file size to help format the images, however when I then retested the pages the scores for **best practices** were not changed. This will be something I will research for future projects to try and understand furtherb how these scores can be improved on. 
+
 ### HTML and CSS Testing
 
 * To test my HTML code I used the [W3C Markup Validator Tool](https://validator.w3.org/)
