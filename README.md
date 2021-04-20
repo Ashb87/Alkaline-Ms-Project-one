@@ -29,9 +29,11 @@ easy to navigate and pleasing to use for the site visitor.
  * [Testing](#testing)
    - [Testing User Stories and Site Goals](#testing-user-stories-and-site-goals)
    - [Responsive Testing](#responsive-testing)
+   - [Lighthouse Testing](#lighthouse-testing)
    - [HTML & CSS Testing](#html-and-css-testing)
    - [Further Testing](#further-testing)
    - [Known issues & Bugs](#known-Issues-and-bugs)
+   
 
  * [Deployment](#deployment)  
 
