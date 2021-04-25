@@ -318,6 +318,9 @@ With the addition of javascript and knowledge of back-end web development I woul
 - When entering the website a user can navigate to the *band* page. On this page they will see photos of the band with a little bit of information
   on each member, followed by a history of the band. Giving information about lineup changes and the recording history of the band. 
 
+<img src="assets/readme-images/band-member.png" width="450" height="300">
+<img src="assets/readme-images/band-history.png" width="450" height="300">
+
 #### Frequent Visitor Goals
 
 **1. As a frequent visitor I want to see any new video or music content the band have released.**
@@ -348,10 +351,8 @@ To test the responsiveness of my website I was using chrome dev tools throughout
 across different screen sizes and make any alterations as required. It was a great to see exactly where the breakpoints were and help decide 
 at which point the layout should change to adapt to the display size.
 
-Further to this I tested the site myself across as many different devices that I had access too. Theese included **Iphone xr,** **Iphone 12,** **Ipad mini,**
-**Samsung galaxy tablet,** **Apple macbook air** and a 21.5 inch **Apple imac** These devices gave me a good idea of the most common screen sizes
-used. The site responded well to each of the different screen sizes and displayed as I intended. Initially I found the contact form loooked too large
-across larger screen sizes so using bootstrap columns and the *offset* property reduced its size for all large screens.
+Further to this I tested the site myself across as many different devices that I had access too. Theese included **Iphone X,** **Iphone XR,** **Iphone 12,** **Ipad mini,** **Samsung galaxy tablet,** **Apple macbook air** and an **HP Pavillion laptop** with a screen size of 15 inches. These devices gave me a good idea of some of the most common screen sizes
+used. The site responded well to each of the different screen sizes and displayed as I intended. Initially I found the contact form looked too large across the bigger screen sizes so using bootstrap columns and the *offset* property reduced its size for all large screens. Unfortunately I have not had acceess to any screen sizes larger than 15 inches to personally test my site. I am hopeful that with the use of the bootstrap grid system the site should still perform well on bigger screens and hopefully with restrictions easing I should have access to an even larger screen for my future projects.
 
 When I felt the site was close to being complete I used the mockup screenshot generator **am I responsive** to get an image of the homepage across
 different size devices and have used this image at the top of this README file.
@@ -405,12 +406,11 @@ Results pictured below <br>
 
 * I have tested the site across different browsers incluing, **Google Chrome,** **Safari,** **Internet Explorer** and **Microsoft Edge.**
   The site worked as expected across all browsers and the display remained exactly the same.
-* As mentioned in the responsive testing section I have tried the site across different devices including **Iphone xr,** **Iphone 12,** **Ipad mini,**
-**Samsung galaxy tablet,** **Apple macbook air** and a 21.5 inch **Apple imac** All of which work and display as expected.
+* As mentioned in the responsive testing section I have tried the site across different devices including **Iphone XR,** **Iphone 12,** **Ipad mini,**
+**Samsung galaxy tablet,** **Apple macbook air** and a 15 inch **HP Pavillion laptop.** All of which work and display as expected.
 * Using each of the different devices and internet browsers I have given a large amount of testing to the sites links, both internal and external.
   All of the links work smoothly and as expected and all external links open in new windows. 
-* I have asked friends and family for opinions and feedback on the appearance and usability of the site. This has helped to recognise any bugs or issues
-  I may not have noticed myself and given me extra feeedback on even more devices and screen sizes. 
+* I have asked friends and family for opinions and feedback on the appearance and usability of the site. This has helped to recognise any bugs or issues I may not have noticed myself and given me extra feeedback on even more devices and screen sizes. 
 
 ### Known Issues and Bugs
 
@@ -479,7 +479,7 @@ All Content for the site was created by Ashley Buy, using the help of the follow
   * [Spotify](https://www.spotify.com/uk/home/) was used to provide embedded code to add links and media devices to the site allowing the user to listen music directly through the website, and follow the band using links provided.
   * [YouTube](https://www.spotify.com/uk/home/) was used to add embedded code for the promotional vidoe on the home page of the site.
  * [Wikipedia](https://www.wikipedia.org/) was used to source information on the band and their history.
- * [Google](https://www.google.com/) was used to find real music venues across the USA to make my fictional tour date cards. It was also used to source all images used in the website.
+ * [Google](https://www.google.com/) was used to find real music venues across the UK to make my fictional tour date cards. It was also used to source all images used in the website.
 
 ### Acknowledgements
   
