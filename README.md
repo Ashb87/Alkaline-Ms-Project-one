@@ -39,7 +39,7 @@ easy to navigate and pleasing to use for the site visitor.
 
  * [Credits](#credits)
 
-## User Experience - (UX)
+## User Experience-(UX)
 
 ### Site Goals
 
@@ -77,9 +77,7 @@ easy to navigate and pleasing to use for the site visitor.
 
 I want the design of the website to reflect the band and their style and so will choose colors that compliment this well. It should be easy 
 to navigate and to have a clear meaning to each page of the site. 
-I want to keep a consistent theme throughout the website by using the same color combinations on every page but also making each page slightly
-unique by changing which colors are used where. For example background and heading colors. I want the site to be attractive for the user and make
-them want to return ot the site again.
+I want to keep a consistent theme throughout the website by using the same color combinations on every page but also making each page slightly unique by alternating which colors are used where. For example background and heading colors. I want the site to be attractive for the user and easy to use and provide features a fan would expect on a bands website. In return making the user want to return to the site again.
 
 
   * #### Color scheme
@@ -87,26 +85,21 @@ them want to return ot the site again.
        I chose these colors because the band have often used a black and red theme for album covers, and the newest album also incorporates
        gold. I chose the off white for the header element and also the background color for the history section on the band page
        because I found it made the paragraphs of text easy to read and also contrasts nicely with the rest of the page as a header. 
-     * Both the red and gold shades were found using the color selector on chrome dev tools. I used the selector to find the correct shade of each color
-       that I felt complimented the site well.
+     * Both the red and gold shades were found using the color selector on chrome dev tools. I used the selector to find the     shade of each color that I felt complimented the site well and fitted with the bands look.
 
         <img src="assets/readme-images/color-pallette.png" width="700" height="100">
 
   * #### Typography
-     * The two fonts I have used are *Fjalla One* and *Lora*. Both fonts have been imported from google fonts. I have used *sans-serif* as a backup 
-       font incase the other two for some reason don't load correctly with the site.
+     * The two fonts I have used are *Fjalla One* and *Lora*. Both fonts have been imported from google fonts. I have used *sans-serif* as a backup font incase the other two for some reason don't load correctly with the site.
      * I used Lora for the header font and also the paragraphs of text in the history section of the band page. Fjalla One was used for everything else.
-     * I picked these fonts because Lora is a clear and easy to read font so works well for the larger blocks of text and also had the look I wanted for the 
-       header when typed in all capitals. I then picked Fjalla One because I think the two fonts compliment each other nicely and look attractive
-       togehter on the site.
+     * I picked these fonts because Lora is a clear and easy to read font so works well for the larger blocks of text and also had the correct look I wanted for the header. I then picked Fjalla One because I think the two fonts compliment each other nicely and look attractive together on the site.
 
   * #### Imagery
-     * The images I have used for this project are to enhance the visual aspect of the specific page they are related to. The band page with information
-     about the band members and their history has various pictures of the members either on their own or all together. The music page has
-     an image of each of the album covers listed on that page. For the tour page I have used an image for the background of the band playing
+     * The images I have used for this project are to enhance the visual aspect of the specific page they are related to. The band page with information about the band members and their history has various pictures of the members either on their own or all together. 
+     * The music page has an image of each of the album covers listed on that page. 
+     * For the tour page I have used an image for the background of the band playing
      at a live show. For larger screens the image is displayed just once, for mobile devices the image is repeated as you scroll down the screen.
-     I decided to do this rather than no-repeat because the image looked way too stretched and the bottom and top blend very well together giving it 
-     a very natural look for small screen viewing.
+     I decided to do this rather than no-repeat because the image looked way too stretched and the bottom and top blend very well together giving it a very natural look for small screen viewing.
 
   * #### Wireframes
 
@@ -205,6 +198,8 @@ With the addition of javascript and knowledge of back-end web development I woul
   * [Google Chrome Developer Tools](https://developer.chrome.com/docs/devtools/) <br>
      I have used Google chromes built in developer tools to help with the styling of the site, selecting colors and to help 
     fix any bugs I found.
+  * [Google Lighthouse](https://developers.google.com/web/tools/lighthouse) <br>
+     I used Google lighthouse to test the performance of my site.
  
 ## Testing
 
@@ -216,10 +211,12 @@ With the addition of javascript and knowledge of back-end web development I woul
     
 - To get feedback on the visual aspect of the site it has been shared with many friends and family and also other students of code institute via the slack portal. The feedback on the visual aspect has been really good, with the choice of colors, particulary on the pages where two colors fade in to each other, receiving very positive reviews.
 - I have tested the site on many differnet screen sizes, including, Iphone Xr, Ipad mini, Samsung Galaxy tablet, Macbook air and IMac desktop.
-  The site responds well to the different screen sizes and the layout adapts as intended. This is mostly down the bootsrap grid system used when 
-  creating the structure of the website in HTML5.
-- The Navbar is cleary shown in the header of the site and uses a burger icon for smaller screen sizes. Each link to the differnt pages works as intended
-  with a clear intent to what each page is for. 
+  The site responds well to the different screen sizes and the layout adapts as intended. This is mostly down to the bootsrap grid system used when creating the structure of the website in HTML5.
+- The Navbar is cleary shown in the header of the site and uses a burger icon for smaller screen sizes. Each link to the differnt pages works as intended with a clear indication to what each page is for. 
+
+<img src="assets/readme-images/header.png" width="450" height="150"> 
+<img src="assets/readme-images/header-burger.png" width="450" height="225">
+
 
 **2. I want the site to clearly promote who the band are.**
 
@@ -232,6 +229,8 @@ With the addition of javascript and knowledge of back-end web development I woul
 - In the footer of every page there are links to the bands social pages including, Facebook, Twitter, Instagram and YouTube. Each one will 
   open in a new browser window and take the user directly to the desired soical page.
 
+<img src="assets/readme-images/social.png" width="450" height="175">
+
 **4. I want to give the user the oppurtunity to watch vides and listen to music by the band.**
 
 - On the home page there is a big promotional video of the bands new single that will play when the user interacts with the video controls.
@@ -239,11 +238,16 @@ With the addition of javascript and knowledge of back-end web development I woul
 - On the music page the user has the ability to listen to the music from six different albums using embedded code from spotify. Each album having
   its own set of controls for the user.
 
+<img src="assets/readme-images/video.png" width="450" height="300">
+<img src="assets/readme-images/music.png" width="450" height="300">
+
 **5. I want to promote any upcoming tour dates with the option to book tickets through the site.**
 
 - On the tour page there are six different tour date cards, advertising where and when the show is being held with a *book now* button
   for four of the six dates. This button will take the user to the [ticketmaster](https://www.ticketmaster.co.uk/) website. The other two dates have *sold out* buttons.
   These buttons are disabled.
+
+<img src="assets/readme-images/tour.png" width="450" height="300">
 
 **6. I want the user to be able to sign up to news and updates and also be able to contact us.**
 
@@ -251,11 +255,16 @@ With the addition of javascript and knowledge of back-end web development I woul
   the latest news and info for the band. There is a small form to fill in for the user and a submit button. Due to the scope of this project when 
   the submit button is clicked nothing yet happens.
 
+<img src="assets/readme-images/signup.png" width="450" height="300">
+<img src="assets/readme-images/contact.png" width="450" height="300">
+
 **7. I want to promote any new singles or albums the band have released.**
 
 - On the home page, directly under the header there is a heading promoting the bands newest single with an official video for the song underneath.
   using embedded code from YouTube. 
 - Under the video is another heading promoting the bands newest album with a picture of the albums artwork and a link directing the user to the bands spotify page.
+
+<img src="assets/readme-images/new-album.png" width="450" height="300">
 
 ### User Stories
 
