@@ -9,7 +9,7 @@
 
 /*--Code taken from "css-tricks.com/perfect-full-page-background-image" to avoid white space when content doesn't fill the page*/
 html { 
-    background-image: linear-gradient(#ba1626, black); no-repeat center center fixed; 
+    background-image: linear-gradient(#ba1626, black);  
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -91,7 +91,7 @@ button{
     border-top: 3px solid #d3ab78;
 }
 
-/*----------social-links*/
+/*--social-links*/
 
 .social-networks{
     text-align: center;
@@ -227,6 +227,7 @@ hr{
     padding-top: 40px;
     font-size: 60px;
     text-transform: capitalize;
+    color: black;
 }
 
 .album{
@@ -294,6 +295,11 @@ hr{
     background-color: #ba1626;
     color: #d3ab78;
     border: 1px solid black;
+}
+
+.btn-book-now:hover{
+    background-color: #d3ab78;
+    color: #ba1626;
 }
 
 /*----------Contact-page*/
